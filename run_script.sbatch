@@ -2,7 +2,7 @@
 #SBATCH -A hive-jw254
 #SBATCH -J run_python_script
 #SBATCH -n 4
-#SBATCH -t 0-48:00:00
+#SBATCH -t 0-96:00:00
 #SBATCH -o report-%j.out
 #SBATCH --mail-user=vhorvath3@gatech.edu
 #SBATCH --mail-type=BEGIN,END,FAIL

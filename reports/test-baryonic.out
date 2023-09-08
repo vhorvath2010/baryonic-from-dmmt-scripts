@@ -1,0 +1,660 @@
+---------------------------------------
+Begin Slurm Prolog: Sep-07-2023 10:09:33
+Job ID:    949686
+User ID:   vhorvath3
+Account:   hive-jw254
+Job name:  run_python_script
+Partition: hive
+---------------------------------------
+yt : [INFO     ] 2023-09-07 10:51:23,801 Loading plugins from /storage/home/hhive1/vhorvath3/.config/yt/my_plugins.py
+yt : [INFO     ] 2023-09-07 10:51:23,803 Loading plugins from /storage/home/hhive1/vhorvath3/.config/yt/my_plugins.py
+yt : [INFO     ] 2023-09-07 10:51:23,802 Loading plugins from /storage/home/hhive1/vhorvath3/.config/yt/my_plugins.py
+yt : [INFO     ] 2023-09-07 10:51:23,802 Loading plugins from /storage/home/hhive1/vhorvath3/.config/yt/my_plugins.py
+yt : [INFO     ] 2023-09-07 10:51:25,622 Parameters: current_time              = 15.798993427726
+yt : [INFO     ] 2023-09-07 10:51:25,622 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:51:25,623 Parameters: current_time              = 15.798993427726
+yt : [INFO     ] 2023-09-07 10:51:25,623 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:51:25,624 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:51:25,623 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:51:25,624 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:51:25,624 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:51:25,624 Parameters: current_redshift          = 17.175087636932
+yt : [INFO     ] 2023-09-07 10:51:25,624 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:51:25,624 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:51:25,625 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:51:25,624 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:51:25,625 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:51:25,624 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 10:51:25,625 Parameters: current_redshift          = 17.175087636932
+yt : [INFO     ] 2023-09-07 10:51:25,625 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:51:25,626 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:51:25,626 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:51:25,626 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 10:51:25,625 Parameters: current_time              = 15.798993427726
+yt : [INFO     ] 2023-09-07 10:51:25,625 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:51:25,626 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:51:25,627 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:51:25,627 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:51:25,627 Parameters: current_redshift          = 17.175087636932
+yt : [INFO     ] 2023-09-07 10:51:25,627 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:51:25,628 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:51:25,628 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:51:25,628 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 10:51:25,634 Parameters: current_time              = 15.798993427726
+yt : [INFO     ] 2023-09-07 10:51:25,635 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:51:25,636 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:51:25,636 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:51:25,637 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:51:25,637 Parameters: current_redshift          = 17.175087636932
+yt : [INFO     ] 2023-09-07 10:51:25,637 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:51:25,637 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:51:25,637 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:51:25,637 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14557 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 581/14557 [00:00<00:05, 2674.07it/s]Parsing Hierarchy :  15%|█▌        | 2221/14557 [00:00<00:01, 8117.49it/s]Parsing Hierarchy :  23%|██▎       | 3296/14557 [00:00<00:01, 6053.31it/s]Parsing Hierarchy :  34%|███▍      | 4963/14557 [00:00<00:01, 8765.22it/s]Parsing Hierarchy :  42%|████▏     | 6097/14557 [00:00<00:01, 6636.64it/s]Parsing Hierarchy :  53%|█████▎    | 7747/14557 [00:01<00:00, 8724.78it/s]Parsing Hierarchy :  65%|██████▍   | 9400/14557 [00:01<00:00, 10536.37it/s]Parsing Hierarchy :  74%|███████▎  | 10710/14557 [00:01<00:00, 7626.95it/s]Parsing Hierarchy :  85%|████████▌ | 12381/14557 [00:01<00:00, 9401.65it/s]Parsing Hierarchy :  96%|█████████▋| 14046/14557 [00:01<00:00, 10982.40it/s]Parsing Hierarchy : 100%|██████████| 14557/14557 [00:01<00:00, 7824.40it/s] 
+Parsing Hierarchy :   0%|          | 0/14557 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 578/14557 [00:00<00:05, 2709.87it/s]Parsing Hierarchy :  15%|█▌        | 2199/14557 [00:00<00:01, 8124.65it/s]Parsing Hierarchy :  22%|██▏       | 3265/14557 [00:00<00:01, 5967.73it/s]Parsing Hierarchy :  34%|███▎      | 4889/14557 [00:00<00:01, 8592.11it/s]Parsing Hierarchy :  41%|████      | 6003/14557 [00:00<00:01, 6478.19it/s]Parsing Hierarchy :  52%|█████▏    | 7626/14557 [00:01<00:00, 8532.02it/s]Parsing Hierarchy :  64%|██████▎   | 9245/14557 [00:01<00:00, 10302.83it/s]Parsing Hierarchy :  72%|███████▏  | 10530/14557 [00:01<00:00, 7421.61it/s]Parsing Hierarchy :  83%|████████▎ | 12151/14557 [00:01<00:00, 9127.11it/s]Parsing Hierarchy :  95%|█████████▍| 13773/14557 [00:01<00:00, 10666.52it/s]Parsing Hierarchy : 100%|██████████| 14557/14557 [00:01<00:00, 7701.61it/s] 
+Parsing Hierarchy :   0%|          | 0/14557 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 552/14557 [00:00<00:05, 2488.16it/s]Parsing Hierarchy :  15%|█▍        | 2166/14557 [00:00<00:01, 7835.54it/s]Parsing Hierarchy :  22%|██▏       | 3218/14557 [00:00<00:02, 5557.59it/s]Parsing Hierarchy :  33%|███▎      | 4854/14557 [00:00<00:01, 8198.93it/s]Parsing Hierarchy :  41%|████      | 5957/14557 [00:00<00:01, 6206.67it/s]Parsing Hierarchy :  52%|█████▏    | 7588/14557 [00:01<00:00, 8271.68it/s]Parsing Hierarchy :  63%|██████▎   | 9208/14557 [00:01<00:00, 10063.46it/s]Parsing Hierarchy :  72%|███████▏  | 10490/14557 [00:01<00:00, 7154.50it/s]Parsing Hierarchy :  83%|████████▎ | 12062/14557 [00:01<00:00, 8768.66it/s]Parsing Hierarchy :  94%|█████████▍| 13722/14557 [00:01<00:00, 10429.68it/s]Parsing Hierarchy : 100%|██████████| 14557/14557 [00:01<00:00, 7395.54it/s] 
+Parsing Hierarchy :   0%|          | 0/14557 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 567/14557 [00:00<00:05, 2399.40it/s]Parsing Hierarchy :  15%|█▍        | 2139/14557 [00:00<00:01, 7417.47it/s]Parsing Hierarchy :  22%|██▏       | 3163/14557 [00:00<00:02, 5397.13it/s]Parsing Hierarchy :  33%|███▎      | 4781/14557 [00:00<00:01, 8014.14it/s]Parsing Hierarchy :  41%|████      | 5971/14557 [00:00<00:01, 6151.43it/s]Parsing Hierarchy :  52%|█████▏    | 7583/14557 [00:01<00:00, 8151.79it/s]Parsing Hierarchy :  63%|██████▎   | 9199/14557 [00:01<00:00, 9934.66it/s]Parsing Hierarchy :  72%|███████▏  | 10472/14557 [00:01<00:00, 7015.75it/s]Parsing Hierarchy :  83%|████████▎ | 12107/14557 [00:01<00:00, 8748.87it/s]Parsing Hierarchy :  94%|█████████▍| 13747/14557 [00:01<00:00, 10352.73it/s]Parsing Hierarchy : 100%|██████████| 14557/14557 [00:01<00:00, 7294.66it/s] 
+yt : [INFO     ] 2023-09-07 10:51:27,890 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:51:27,926 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:51:28,004 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:51:28,044 Gathering a field list (this may take a moment.)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'y' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "y")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'z' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "z")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("enzo", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'x' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "x")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'y' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "y")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'x' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "x")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'y' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "y")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("enzo", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("enzo", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'x' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "x")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'z' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "z")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'z' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "z")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'y' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "y")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'x' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "x")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'y' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "y")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("enzo", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'y' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "y")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'y' is ambiguous and corresponds to any one of the following field types:
+ {'enzo', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "y")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'z' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "z")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/fields/field_detector.py:108: VisibleDeprecationWarning: The requested field name 'y' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'enzo'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "y")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(*field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/data_objects/data_containers.py:1421: VisibleDeprecationWarning: The requested field name 'particle_type' is ambiguous and corresponds to any one of the following field types:
+ {'all', 'nbody', 'p3', 'p2'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("p2", "particle_type")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/data_objects/data_containers.py:1421: VisibleDeprecationWarning: The requested field name 'particle_type' is ambiguous and corresponds to any one of the following field types:
+ {'p3', 'all', 'nbody', 'p2'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("p2", "particle_type")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/data_objects/data_containers.py:1421: VisibleDeprecationWarning: The requested field name 'particle_type' is ambiguous and corresponds to any one of the following field types:
+ {'nbody', 'all', 'p3', 'p2'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("p2", "particle_type")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(field)
+/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/yt/data_objects/data_containers.py:1421: VisibleDeprecationWarning: The requested field name 'particle_type' is ambiguous and corresponds to any one of the following field types:
+ {'all', 'p2', 'nbody', 'p3'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("p2", "particle_type")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(field)
+yt : [INFO     ] 2023-09-07 10:55:27,490 Parameters: current_time              = 15.83163501434
+yt : [INFO     ] 2023-09-07 10:55:27,489 Parameters: current_time              = 15.83163501434
+yt : [INFO     ] 2023-09-07 10:55:27,491 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:55:27,490 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:55:27,491 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:55:27,490 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:55:27,491 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: current_redshift          = 17.15009383703
+yt : [INFO     ] 2023-09-07 10:55:27,491 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:55:27,491 Parameters: current_redshift          = 17.15009383703
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:55:27,491 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:55:27,491 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: current_time              = 15.83163501434
+yt : [INFO     ] 2023-09-07 10:55:27,493 Parameters: current_time              = 15.83163501434
+yt : [INFO     ] 2023-09-07 10:55:27,492 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:55:27,494 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:55:27,493 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:55:27,494 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:55:27,494 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:55:27,494 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:55:27,495 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:55:27,495 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:55:27,495 Parameters: current_redshift          = 17.15009383703
+yt : [INFO     ] 2023-09-07 10:55:27,495 Parameters: current_redshift          = 17.15009383703
+yt : [INFO     ] 2023-09-07 10:55:27,495 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:55:27,496 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:55:27,495 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:55:27,496 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:55:27,496 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 10:55:27,495 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:55:27,495 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:55:27,496 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14531 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1139/14531 [00:00<00:01, 11388.38it/s]Parsing Hierarchy :  19%|█▊        | 2716/14531 [00:00<00:00, 13962.08it/s]Parsing Hierarchy :  30%|██▉       | 4353/14531 [00:00<00:00, 15059.18it/s]Parsing Hierarchy :  40%|████      | 5859/14531 [00:00<00:01, 6719.83it/s] Parsing Hierarchy :  52%|█████▏    | 7490/14531 [00:00<00:00, 8646.95it/s]Parsing Hierarchy :  63%|██████▎   | 9137/14531 [00:00<00:00, 10391.93it/s]Parsing Hierarchy :  74%|███████▍  | 10789/14531 [00:01<00:00, 11870.44it/s]Parsing Hierarchy :  84%|████████▍ | 12267/14531 [00:01<00:00, 6771.13it/s] Parsing Hierarchy :  96%|█████████▌| 13918/14531 [00:01<00:00, 8371.62it/s]Parsing Hierarchy : 100%|██████████| 14531/14531 [00:01<00:00, 9150.08it/s]
+Parsing Hierarchy :   0%|          | 0/14531 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1144/14531 [00:00<00:01, 11435.19it/s]Parsing Hierarchy :  19%|█▉        | 2731/14531 [00:00<00:00, 14041.66it/s]Parsing Hierarchy :  30%|██▉       | 4348/14531 [00:00<00:00, 15012.52it/s]Parsing Hierarchy :  40%|████      | 5850/14531 [00:00<00:01, 6766.45it/s] Parsing Hierarchy :  51%|█████▏    | 7468/14531 [00:00<00:00, 8673.03it/s]Parsing Hierarchy :  63%|██████▎   | 9084/14531 [00:00<00:00, 10353.02it/s]Parsing Hierarchy :  74%|███████▎  | 10709/14531 [00:01<00:00, 11784.45it/s]Parsing Hierarchy :  84%|████████▎ | 12169/14531 [00:01<00:00, 6671.34it/s] Parsing Hierarchy :  95%|█████████▍| 13793/14531 [00:01<00:00, 8240.63it/s]Parsing Hierarchy : 100%|██████████| 14531/14531 [00:01<00:00, 9115.30it/s]
+Parsing Hierarchy :   0%|          | 0/14531 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1108/14531 [00:00<00:01, 11072.38it/s]Parsing Hierarchy :  19%|█▊        | 2696/14531 [00:00<00:00, 13897.96it/s]Parsing Hierarchy :  30%|██▉       | 4325/14531 [00:00<00:00, 14988.76it/s]Parsing Hierarchy :  40%|████      | 5824/14531 [00:00<00:01, 6362.70it/s] Parsing Hierarchy :  51%|█████▏    | 7462/14531 [00:00<00:00, 8296.54it/s]Parsing Hierarchy :  63%|██████▎   | 9110/14531 [00:00<00:00, 10064.63it/s]Parsing Hierarchy :  74%|███████▍  | 10772/14531 [00:01<00:00, 11611.42it/s]Parsing Hierarchy :  86%|████████▌ | 12436/14531 [00:01<00:00, 12878.77it/s]Parsing Hierarchy :  96%|█████████▌| 13974/14531 [00:01<00:00, 7224.06it/s] Parsing Hierarchy : 100%|██████████| 14531/14531 [00:01<00:00, 9036.06it/s]
+Parsing Hierarchy :   0%|          | 0/14531 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1156/14531 [00:00<00:01, 11558.19it/s]Parsing Hierarchy :  19%|█▉        | 2740/14531 [00:00<00:00, 14076.71it/s]Parsing Hierarchy :  30%|███       | 4372/14531 [00:00<00:00, 15097.81it/s]Parsing Hierarchy :  40%|████      | 5882/14531 [00:00<00:01, 6427.22it/s] Parsing Hierarchy :  52%|█████▏    | 7511/14531 [00:00<00:00, 8335.92it/s]Parsing Hierarchy :  63%|██████▎   | 9130/14531 [00:00<00:00, 10036.84it/s]Parsing Hierarchy :  74%|███████▍  | 10778/14531 [00:01<00:00, 11558.33it/s]Parsing Hierarchy :  86%|████████▌ | 12430/14531 [00:01<00:00, 12809.33it/s]Parsing Hierarchy :  96%|█████████▌| 13957/14531 [00:01<00:00, 6937.77it/s] Parsing Hierarchy : 100%|██████████| 14531/14531 [00:01<00:00, 8902.40it/s]
+yt : [INFO     ] 2023-09-07 10:55:29,466 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:55:29,466 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:55:29,468 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:55:29,493 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:59:55,981 Parameters: current_time              = 15.864276521851
+yt : [INFO     ] 2023-09-07 10:59:55,981 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:59:55,982 Parameters: current_time              = 15.864276521851
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: current_time              = 15.864276521851
+yt : [INFO     ] 2023-09-07 10:59:55,982 Parameters: current_time              = 15.864276521851
+yt : [INFO     ] 2023-09-07 10:59:55,982 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:59:55,982 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 10:59:55,982 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:59:55,985 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:59:55,985 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: current_redshift          = 17.125185841038
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:59:55,985 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: current_redshift          = 17.125185841038
+yt : [INFO     ] 2023-09-07 10:59:55,986 Parameters: current_redshift          = 17.125185841038
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: current_redshift          = 17.125185841038
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:59:55,986 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:59:55,986 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:59:55,985 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 10:59:55,983 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:59:55,986 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:59:55,985 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 10:59:55,984 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 10:59:55,986 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 10:59:55,985 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14564 [00:00<?, ?it/s]Parsing Hierarchy :   1%|          | 97/14564 [00:00<01:14, 193.70it/s]Parsing Hierarchy :  11%|█▏        | 1655/14564 [00:00<00:03, 3608.76it/s]Parsing Hierarchy :  22%|██▏       | 3251/14564 [00:00<00:01, 6581.52it/s]Parsing Hierarchy :  34%|███▎      | 4892/14564 [00:00<00:01, 9096.09it/s]Parsing Hierarchy :  45%|████▍     | 6536/14564 [00:00<00:00, 11061.86it/s]Parsing Hierarchy :  56%|█████▌    | 8167/14564 [00:01<00:00, 12512.29it/s]Parsing Hierarchy :  67%|██████▋   | 9814/14564 [00:01<00:00, 13632.36it/s]Parsing Hierarchy :  78%|███████▊  | 11385/14564 [00:01<00:00, 6318.18it/s]Parsing Hierarchy :  90%|████████▉ | 13043/14564 [00:01<00:00, 7902.85it/s]Parsing Hierarchy : 100%|██████████| 14564/14564 [00:01<00:00, 7962.88it/s]
+Parsing Hierarchy :   0%|          | 0/14564 [00:00<?, ?it/s]Parsing Hierarchy :   1%|          | 97/14564 [00:00<01:09, 207.22it/s]Parsing Hierarchy :  11%|█▏        | 1672/14564 [00:00<00:03, 3841.36it/s]Parsing Hierarchy :  22%|██▏       | 3240/14564 [00:00<00:01, 6805.21it/s]Parsing Hierarchy :  33%|███▎      | 4851/14564 [00:00<00:01, 9255.72it/s]Parsing Hierarchy :  44%|████▍     | 6458/14564 [00:00<00:00, 11116.72it/s]Parsing Hierarchy :  55%|█████▌    | 8065/14564 [00:00<00:00, 12506.70it/s]Parsing Hierarchy :  66%|██████▋   | 9673/14564 [00:01<00:00, 13518.74it/s]Parsing Hierarchy :  77%|███████▋  | 11214/14564 [00:01<00:00, 6031.34it/s]Parsing Hierarchy :  88%|████████▊ | 12836/14564 [00:01<00:00, 7568.46it/s]Parsing Hierarchy :  99%|█████████▉| 14447/14564 [00:01<00:00, 9082.54it/s]Parsing Hierarchy : 100%|██████████| 14564/14564 [00:01<00:00, 7933.58it/s]
+Parsing Hierarchy :   0%|          | 0/14564 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 897/14564 [00:00<00:08, 1675.60it/s]Parsing Hierarchy :  17%|█▋        | 2473/14564 [00:00<00:02, 4641.97it/s]Parsing Hierarchy :  28%|██▊       | 4078/14564 [00:00<00:01, 7280.59it/s]Parsing Hierarchy :  39%|███▉      | 5697/14564 [00:00<00:00, 9492.58it/s]Parsing Hierarchy :  50%|█████     | 7311/14564 [00:00<00:00, 11232.52it/s]Parsing Hierarchy :  61%|██████▏   | 8940/14564 [00:01<00:00, 12609.16it/s]Parsing Hierarchy :  73%|███████▎  | 10577/14564 [00:01<00:00, 13662.21it/s]Parsing Hierarchy :  83%|████████▎ | 12144/14564 [00:01<00:00, 6120.01it/s] Parsing Hierarchy :  95%|█████████▍| 13789/14564 [00:01<00:00, 7661.92it/s]Parsing Hierarchy : 100%|██████████| 14564/14564 [00:01<00:00, 7883.72it/s]
+Parsing Hierarchy :   0%|          | 0/14564 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 897/14564 [00:00<00:08, 1577.41it/s]Parsing Hierarchy :  17%|█▋        | 2499/14564 [00:00<00:02, 4476.85it/s]Parsing Hierarchy :  28%|██▊       | 4100/14564 [00:00<00:01, 7047.19it/s]Parsing Hierarchy :  39%|███▉      | 5744/14564 [00:00<00:00, 9315.28it/s]Parsing Hierarchy :  51%|█████     | 7381/14564 [00:00<00:00, 11124.62it/s]Parsing Hierarchy :  62%|██████▏   | 9025/14564 [00:01<00:00, 12549.58it/s]Parsing Hierarchy :  73%|███████▎  | 10665/14564 [00:01<00:00, 13615.40it/s]Parsing Hierarchy :  84%|████████▍ | 12244/14564 [00:01<00:00, 6059.57it/s] Parsing Hierarchy :  95%|█████████▌| 13890/14564 [00:01<00:00, 7588.57it/s]Parsing Hierarchy : 100%|██████████| 14564/14564 [00:01<00:00, 7723.93it/s]
+yt : [INFO     ] 2023-09-07 10:59:58,213 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:59:58,224 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:59:58,227 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 10:59:58,276 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:03:39,492 Parameters: current_time              = 15.8969181697
+yt : [INFO     ] 2023-09-07 11:03:39,493 Parameters: current_time              = 15.8969181697
+yt : [INFO     ] 2023-09-07 11:03:39,492 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:03:39,493 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:03:39,493 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:03:39,493 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: current_time              = 15.8969181697
+yt : [INFO     ] 2023-09-07 11:03:39,493 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: current_time              = 15.8969181697
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: current_redshift          = 17.100363012078
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:03:39,495 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:03:39,495 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:03:39,495 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:03:39,495 Parameters: current_redshift          = 17.100363012078
+yt : [INFO     ] 2023-09-07 11:03:39,495 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:03:39,495 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:03:39,494 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: current_redshift          = 17.100363012078
+yt : [INFO     ] 2023-09-07 11:03:39,495 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: current_redshift          = 17.100363012078
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:03:39,495 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:03:39,495 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:03:39,496 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14695 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1132/14695 [00:00<00:07, 1707.95it/s]Parsing Hierarchy :  18%|█▊        | 2683/14695 [00:00<00:02, 4155.15it/s]Parsing Hierarchy :  29%|██▉       | 4306/14695 [00:00<00:01, 6595.24it/s]Parsing Hierarchy :  40%|████      | 5934/14695 [00:00<00:00, 8764.34it/s]Parsing Hierarchy :  52%|█████▏    | 7571/14695 [00:01<00:00, 10607.43it/s]Parsing Hierarchy :  63%|██████▎   | 9215/14695 [00:01<00:00, 12107.54it/s]Parsing Hierarchy :  74%|███████▍  | 10861/14695 [00:01<00:00, 13275.55it/s]Parsing Hierarchy :  85%|████████▌ | 12503/14695 [00:01<00:00, 14146.57it/s]Parsing Hierarchy :  96%|█████████▌| 14142/14695 [00:01<00:00, 14781.92it/s]Parsing Hierarchy : 100%|██████████| 14695/14695 [00:01<00:00, 9816.59it/s] 
+Parsing Hierarchy :   0%|          | 0/14695 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1134/14695 [00:00<00:01, 11338.55it/s]Parsing Hierarchy :  15%|█▌        | 2268/14695 [00:00<00:04, 2705.93it/s] Parsing Hierarchy :  26%|██▌       | 3841/14695 [00:00<00:02, 4880.87it/s]Parsing Hierarchy :  37%|███▋      | 5458/14695 [00:00<00:01, 7051.33it/s]Parsing Hierarchy :  48%|████▊     | 7086/14695 [00:01<00:00, 9040.66it/s]Parsing Hierarchy :  59%|█████▉    | 8722/14695 [00:01<00:00, 10763.09it/s]Parsing Hierarchy :  71%|███████   | 10369/14695 [00:01<00:00, 12199.57it/s]Parsing Hierarchy :  82%|████████▏ | 12024/14695 [00:01<00:00, 13347.78it/s]Parsing Hierarchy :  93%|█████████▎| 13677/14695 [00:01<00:00, 14219.50it/s]Parsing Hierarchy : 100%|██████████| 14695/14695 [00:01<00:00, 9761.24it/s] 
+Parsing Hierarchy :   0%|          | 0/14695 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1166/14695 [00:00<00:01, 11654.04it/s]Parsing Hierarchy :  16%|█▌        | 2332/14695 [00:00<00:04, 2666.57it/s] Parsing Hierarchy :  27%|██▋       | 3919/14695 [00:00<00:02, 4794.55it/s]Parsing Hierarchy :  38%|███▊      | 5540/14695 [00:00<00:01, 6931.14it/s]Parsing Hierarchy :  49%|████▉     | 7166/14695 [00:01<00:00, 8898.92it/s]Parsing Hierarchy :  60%|█████▉    | 8786/14695 [00:01<00:00, 10589.66it/s]Parsing Hierarchy :  71%|███████   | 10418/14695 [00:01<00:00, 12013.21it/s]Parsing Hierarchy :  82%|████████▏ | 12068/14695 [00:01<00:00, 13187.04it/s]Parsing Hierarchy :  93%|█████████▎| 13718/14695 [00:01<00:00, 14088.06it/s]Parsing Hierarchy : 100%|██████████| 14695/14695 [00:01<00:00, 9589.20it/s] 
+Parsing Hierarchy :   0%|          | 0/14695 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1132/14695 [00:00<00:08, 1639.97it/s]Parsing Hierarchy :  18%|█▊        | 2656/14695 [00:00<00:03, 3971.59it/s]Parsing Hierarchy :  29%|██▉       | 4241/14695 [00:00<00:01, 6308.35it/s]Parsing Hierarchy :  40%|███▉      | 5859/14695 [00:00<00:01, 8473.94it/s]Parsing Hierarchy :  51%|█████     | 7474/14695 [00:01<00:00, 10304.36it/s]Parsing Hierarchy :  62%|██████▏   | 9087/14695 [00:01<00:00, 11783.87it/s]Parsing Hierarchy :  73%|███████▎  | 10711/14695 [00:01<00:00, 12969.44it/s]Parsing Hierarchy :  84%|████████▍ | 12346/14695 [00:01<00:00, 13898.77it/s]Parsing Hierarchy :  95%|█████████▌| 13977/14695 [00:01<00:00, 14579.41it/s]Parsing Hierarchy : 100%|██████████| 14695/14695 [00:01<00:00, 9575.79it/s] 
+yt : [INFO     ] 2023-09-07 11:03:42,187 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:03:42,210 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:03:42,234 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:03:42,247 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:07:19,298 Parameters: current_time              = 15.929559831985
+yt : [INFO     ] 2023-09-07 11:07:19,298 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:07:19,299 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:07:19,299 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:07:19,299 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:07:19,299 Parameters: current_redshift          = 17.07562498036
+yt : [INFO     ] 2023-09-07 11:07:19,300 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:07:19,300 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:07:19,300 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:07:19,300 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:07:19,333 Parameters: current_time              = 15.929559831985
+yt : [INFO     ] 2023-09-07 11:07:19,334 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:07:19,334 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:07:19,335 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:07:19,335 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:07:19,335 Parameters: current_redshift          = 17.07562498036
+yt : [INFO     ] 2023-09-07 11:07:19,335 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:07:19,336 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:07:19,336 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:07:19,336 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:07:19,381 Parameters: current_time              = 15.929559831985
+yt : [INFO     ] 2023-09-07 11:07:19,382 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:07:19,382 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:07:19,383 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:07:19,384 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:07:19,384 Parameters: current_redshift          = 17.07562498036
+yt : [INFO     ] 2023-09-07 11:07:19,384 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:07:19,384 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:07:19,384 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:07:19,385 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:07:19,395 Parameters: current_time              = 15.929559831985
+yt : [INFO     ] 2023-09-07 11:07:19,396 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:07:19,396 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:07:19,397 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:07:19,397 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:07:19,397 Parameters: current_redshift          = 17.07562498036
+yt : [INFO     ] 2023-09-07 11:07:19,397 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:07:19,397 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:07:19,397 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:07:19,397 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14816 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1112/14816 [00:00<00:01, 11114.60it/s]Parsing Hierarchy :  19%|█▊        | 2775/14816 [00:00<00:00, 14356.76it/s]Parsing Hierarchy :  30%|███       | 4452/14816 [00:00<00:00, 15456.42it/s]Parsing Hierarchy :  41%|████      | 6083/14816 [00:00<00:00, 15792.90it/s]Parsing Hierarchy :  52%|█████▏    | 7663/14816 [00:01<00:01, 4940.44it/s] Parsing Hierarchy :  63%|██████▎   | 9281/14816 [00:01<00:00, 6499.76it/s]Parsing Hierarchy :  74%|███████▎  | 10897/14816 [00:01<00:00, 8097.69it/s]Parsing Hierarchy :  84%|████████▍ | 12489/14816 [00:01<00:00, 9592.60it/s]Parsing Hierarchy :  95%|█████████▌| 14092/14816 [00:01<00:00, 10972.13it/s]Parsing Hierarchy : 100%|██████████| 14816/14816 [00:01<00:00, 9528.84it/s] 
+Parsing Hierarchy :   0%|          | 0/14816 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1192/14816 [00:00<00:01, 11915.92it/s]Parsing Hierarchy :  19%|█▉        | 2830/14816 [00:00<00:00, 14537.37it/s]Parsing Hierarchy :  30%|███       | 4466/14816 [00:00<00:00, 15368.97it/s]Parsing Hierarchy :  41%|████      | 6065/14816 [00:00<00:00, 15611.60it/s]Parsing Hierarchy :  51%|█████▏    | 7627/14816 [00:01<00:01, 4698.05it/s] Parsing Hierarchy :  62%|██████▏   | 9226/14816 [00:01<00:00, 6212.93it/s]Parsing Hierarchy :  73%|███████▎  | 10765/14816 [00:01<00:00, 7686.02it/s]Parsing Hierarchy :  83%|████████▎ | 12321/14816 [00:01<00:00, 9156.11it/s]Parsing Hierarchy :  94%|█████████▍| 13897/14816 [00:01<00:00, 10546.11it/s]Parsing Hierarchy : 100%|██████████| 14816/14816 [00:01<00:00, 9237.78it/s] 
+Parsing Hierarchy :   0%|          | 0/14816 [00:00<?, ?it/s]Parsing Hierarchy :  10%|█         | 1510/14816 [00:00<00:00, 15091.16it/s]Parsing Hierarchy :  21%|██▏       | 3151/14816 [00:00<00:00, 15800.40it/s]Parsing Hierarchy :  32%|███▏      | 4790/14816 [00:00<00:00, 16066.71it/s]Parsing Hierarchy :  43%|████▎     | 6408/14816 [00:00<00:00, 16110.62it/s]Parsing Hierarchy :  54%|█████▍    | 8020/14816 [00:00<00:00, 16067.06it/s]Parsing Hierarchy :  65%|██████▍   | 9627/14816 [00:01<00:01, 4670.86it/s] Parsing Hierarchy :  76%|███████▌  | 11218/14816 [00:01<00:00, 6057.91it/s]Parsing Hierarchy :  87%|████████▋ | 12825/14816 [00:01<00:00, 7558.49it/s]Parsing Hierarchy :  97%|█████████▋| 14420/14816 [00:01<00:00, 9031.18it/s]Parsing Hierarchy : 100%|██████████| 14816/14816 [00:01<00:00, 8999.19it/s]
+Parsing Hierarchy :   0%|          | 0/14816 [00:00<?, ?it/s]Parsing Hierarchy :  10%|▉         | 1448/14816 [00:00<00:00, 14474.25it/s]Parsing Hierarchy :  21%|██        | 3061/14816 [00:00<00:00, 15447.46it/s]Parsing Hierarchy :  32%|███▏      | 4685/14816 [00:00<00:00, 15806.57it/s]Parsing Hierarchy :  43%|████▎     | 6335/14816 [00:00<00:00, 16078.56it/s]Parsing Hierarchy :  54%|█████▎    | 7955/14816 [00:00<00:00, 16117.79it/s]Parsing Hierarchy :  65%|██████▍   | 9567/14816 [00:01<00:01, 4618.19it/s] Parsing Hierarchy :  75%|███████▌  | 11169/14816 [00:01<00:00, 6010.37it/s]Parsing Hierarchy :  86%|████████▌ | 12766/14816 [00:01<00:00, 7489.82it/s]Parsing Hierarchy :  97%|█████████▋| 14313/14816 [00:01<00:00, 8886.46it/s]Parsing Hierarchy : 100%|██████████| 14816/14816 [00:01<00:00, 8894.73it/s]
+yt : [INFO     ] 2023-09-07 11:07:21,267 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:07:21,330 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:07:21,441 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:07:21,446 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:10:46,542 Parameters: current_time              = 15.962201400439
+yt : [INFO     ] 2023-09-07 11:10:46,542 Parameters: current_time              = 15.962201400439
+yt : [INFO     ] 2023-09-07 11:10:46,543 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:10:46,542 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:10:46,543 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: current_redshift          = 17.050971364985
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:10:46,543 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:10:46,544 Parameters: current_redshift          = 17.050971364985
+yt : [INFO     ] 2023-09-07 11:10:46,545 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:10:46,545 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:10:46,545 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:10:46,545 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:10:46,620 Parameters: current_time              = 15.962201400439
+yt : [INFO     ] 2023-09-07 11:10:46,620 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:10:46,621 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:10:46,621 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:10:46,622 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:10:46,622 Parameters: current_redshift          = 17.050971364985
+yt : [INFO     ] 2023-09-07 11:10:46,622 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:10:46,622 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:10:46,622 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:10:46,622 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:10:46,640 Parameters: current_time              = 15.962201400439
+yt : [INFO     ] 2023-09-07 11:10:46,640 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:10:46,641 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:10:46,641 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:10:46,642 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:10:46,642 Parameters: current_redshift          = 17.050971364985
+yt : [INFO     ] 2023-09-07 11:10:46,642 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:10:46,642 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:10:46,642 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:10:46,642 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14751 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1062/14751 [00:00<00:01, 10618.69it/s]Parsing Hierarchy :  18%|█▊        | 2621/14751 [00:00<00:00, 13540.52it/s]Parsing Hierarchy :  27%|██▋       | 3976/14751 [00:01<00:04, 2480.68it/s] Parsing Hierarchy :  38%|███▊      | 5589/14751 [00:01<00:02, 3937.00it/s]Parsing Hierarchy :  49%|████▉     | 7196/14751 [00:01<00:01, 5541.78it/s]Parsing Hierarchy :  60%|█████▉    | 8828/14751 [00:01<00:00, 7254.61it/s]Parsing Hierarchy :  71%|███████   | 10482/14751 [00:01<00:00, 8971.81it/s]Parsing Hierarchy :  82%|████████▏ | 12117/14751 [00:01<00:00, 10513.13it/s]Parsing Hierarchy :  93%|█████████▎| 13705/14751 [00:01<00:00, 11735.81it/s]Parsing Hierarchy : 100%|██████████| 14751/14751 [00:01<00:00, 7588.51it/s] 
+Parsing Hierarchy :   0%|          | 0/14751 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1063/14751 [00:00<00:01, 10624.77it/s]Parsing Hierarchy :  18%|█▊        | 2611/14751 [00:00<00:00, 13477.78it/s]Parsing Hierarchy :  27%|██▋       | 3959/14751 [00:01<00:04, 2461.19it/s] Parsing Hierarchy :  38%|███▊      | 5539/14751 [00:01<00:02, 3880.60it/s]Parsing Hierarchy :  49%|████▊     | 7155/14751 [00:01<00:01, 5500.61it/s]Parsing Hierarchy :  59%|█████▉    | 8770/14751 [00:01<00:00, 7189.28it/s]Parsing Hierarchy :  70%|███████   | 10384/14751 [00:01<00:00, 8842.54it/s]Parsing Hierarchy :  82%|████████▏ | 12026/14751 [00:01<00:00, 10421.31it/s]Parsing Hierarchy :  92%|█████████▏| 13636/14751 [00:01<00:00, 11724.83it/s]Parsing Hierarchy : 100%|██████████| 14751/14751 [00:01<00:00, 7566.01it/s] 
+Parsing Hierarchy :   0%|          | 0/14751 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 994/14751 [00:01<00:14, 956.46it/s]Parsing Hierarchy :  17%|█▋        | 2476/14751 [00:01<00:04, 2631.84it/s]Parsing Hierarchy :  28%|██▊       | 4063/14751 [00:01<00:02, 4580.75it/s]Parsing Hierarchy :  38%|███▊      | 5667/14751 [00:01<00:01, 6571.67it/s]Parsing Hierarchy :  49%|████▉     | 7266/14751 [00:01<00:00, 8444.27it/s]Parsing Hierarchy :  60%|██████    | 8876/14751 [00:01<00:00, 10135.74it/s]Parsing Hierarchy :  71%|███████   | 10455/14751 [00:01<00:00, 11492.11it/s]Parsing Hierarchy :  82%|████████▏ | 12024/14751 [00:01<00:00, 12563.22it/s]Parsing Hierarchy :  92%|█████████▏| 13615/14751 [00:01<00:00, 13457.35it/s]Parsing Hierarchy : 100%|██████████| 14751/14751 [00:01<00:00, 7711.99it/s] 
+Parsing Hierarchy :   0%|          | 0/14751 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 993/14751 [00:01<00:15, 906.55it/s]Parsing Hierarchy :  17%|█▋        | 2485/14751 [00:01<00:04, 2523.20it/s]Parsing Hierarchy :  27%|██▋       | 4049/14751 [00:01<00:02, 4379.04it/s]Parsing Hierarchy :  38%|███▊      | 5636/14751 [00:01<00:01, 6311.05it/s]Parsing Hierarchy :  49%|████▉     | 7235/14751 [00:01<00:00, 8184.86it/s]Parsing Hierarchy :  60%|██████    | 8862/14751 [00:01<00:00, 9936.62it/s]Parsing Hierarchy :  71%|███████   | 10456/14751 [00:01<00:00, 11355.67it/s]Parsing Hierarchy :  82%|████████▏ | 12035/14751 [00:01<00:00, 12474.39it/s]Parsing Hierarchy :  92%|█████████▏| 13626/14751 [00:01<00:00, 13383.58it/s]Parsing Hierarchy : 100%|██████████| 14751/14751 [00:01<00:00, 7492.50it/s] 
+yt : [INFO     ] 2023-09-07 11:10:48,909 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:10:48,919 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:10:49,866 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:10:49,983 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:14:24,111 Parameters: current_time              = 15.994842823083
+yt : [INFO     ] 2023-09-07 11:14:24,111 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:14:24,112 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:14:24,113 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:14:24,113 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:14:24,113 Parameters: current_redshift          = 17.026401745109
+yt : [INFO     ] 2023-09-07 11:14:24,114 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:14:24,114 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:14:24,114 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:14:24,114 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:14:24,135 Parameters: current_time              = 15.994842823083
+yt : [INFO     ] 2023-09-07 11:14:24,138 Parameters: current_time              = 15.994842823083
+yt : [INFO     ] 2023-09-07 11:14:24,135 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:14:24,138 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:14:24,136 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:14:24,139 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:14:24,136 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:14:24,139 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:14:24,137 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:14:24,140 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:14:24,137 Parameters: current_redshift          = 17.026401745109
+yt : [INFO     ] 2023-09-07 11:14:24,140 Parameters: current_redshift          = 17.026401745109
+yt : [INFO     ] 2023-09-07 11:14:24,137 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:14:24,140 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:14:24,137 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:14:24,140 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:14:24,137 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:14:24,140 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:14:24,137 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:14:24,140 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:14:24,271 Parameters: current_time              = 15.994842823083
+yt : [INFO     ] 2023-09-07 11:14:24,272 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:14:24,272 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:14:24,273 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:14:24,273 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:14:24,273 Parameters: current_redshift          = 17.026401745109
+yt : [INFO     ] 2023-09-07 11:14:24,273 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:14:24,273 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:14:24,274 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:14:24,274 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14791 [00:00<?, ?it/s]Parsing Hierarchy :  10%|▉         | 1470/14791 [00:00<00:00, 14688.07it/s]Parsing Hierarchy :  21%|██        | 3119/14791 [00:00<00:00, 15743.80it/s]Parsing Hierarchy :  32%|███▏      | 4733/14791 [00:00<00:00, 15922.88it/s]Parsing Hierarchy :  43%|████▎     | 6398/14791 [00:00<00:00, 16199.76it/s]Parsing Hierarchy :  54%|█████▍    | 8018/14791 [00:01<00:01, 4473.91it/s] Parsing Hierarchy :  65%|██████▍   | 9603/14791 [00:01<00:00, 5888.03it/s]Parsing Hierarchy :  76%|███████▌  | 11273/14791 [00:01<00:00, 7519.62it/s]Parsing Hierarchy :  87%|████████▋ | 12932/14791 [00:01<00:00, 9127.77it/s]Parsing Hierarchy :  99%|█████████▊| 14587/14791 [00:01<00:00, 10628.11it/s]Parsing Hierarchy : 100%|██████████| 14791/14791 [00:01<00:00, 9015.37it/s] 
+Parsing Hierarchy :   0%|          | 0/14791 [00:00<?, ?it/s]Parsing Hierarchy :  10%|█         | 1511/14791 [00:00<00:00, 15105.30it/s]Parsing Hierarchy :  21%|██        | 3110/14791 [00:00<00:00, 15622.10it/s]Parsing Hierarchy :  32%|███▏      | 4689/14791 [00:00<00:00, 15694.85it/s]Parsing Hierarchy :  43%|████▎     | 6308/14791 [00:00<00:00, 15887.02it/s]Parsing Hierarchy :  53%|█████▎    | 7897/14791 [00:01<00:01, 4222.63it/s] Parsing Hierarchy :  64%|██████▍   | 9435/14791 [00:01<00:00, 5560.40it/s]Parsing Hierarchy :  74%|███████▍  | 10999/14791 [00:01<00:00, 7038.04it/s]Parsing Hierarchy :  85%|████████▌ | 12586/14791 [00:01<00:00, 8567.42it/s]Parsing Hierarchy :  96%|█████████▌| 14157/14791 [00:01<00:00, 9983.91it/s]Parsing Hierarchy : 100%|██████████| 14791/14791 [00:01<00:00, 8666.86it/s]
+yt : [INFO     ] 2023-09-07 11:14:26,156 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/14791 [00:00<?, ?it/s]Parsing Hierarchy :   9%|▉         | 1402/14791 [00:00<00:00, 14018.88it/s]Parsing Hierarchy :  20%|██        | 2984/14791 [00:00<00:00, 15073.60it/s]Parsing Hierarchy :  31%|███       | 4587/14791 [00:00<00:00, 15507.57it/s]Parsing Hierarchy :  42%|████▏     | 6193/14791 [00:00<00:00, 15725.40it/s]Parsing Hierarchy :  53%|█████▎    | 7835/14791 [00:00<00:00, 15965.36it/s]Parsing Hierarchy :  64%|██████▍   | 9471/14791 [00:00<00:00, 16098.22it/s]Parsing Hierarchy :  75%|███████▍  | 11081/14791 [00:01<00:01, 3473.12it/s]Parsing Hierarchy :  86%|████████▌ | 12668/14791 [00:01<00:00, 4607.30it/s]Parsing Hierarchy :  96%|█████████▋| 14255/14791 [00:02<00:00, 5909.13it/s]Parsing Hierarchy : 100%|██████████| 14791/14791 [00:02<00:00, 7230.51it/s]
+Parsing Hierarchy :   0%|          | 0/14791 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1162/14791 [00:00<00:01, 11615.25it/s]Parsing Hierarchy :  19%|█▊        | 2764/14791 [00:00<00:00, 14201.31it/s]Parsing Hierarchy :  29%|██▉       | 4356/14791 [00:00<00:00, 14982.62it/s]Parsing Hierarchy :  40%|████      | 5983/14791 [00:00<00:00, 15486.51it/s]Parsing Hierarchy :  52%|█████▏    | 7627/14791 [00:00<00:00, 15828.85it/s]Parsing Hierarchy :  62%|██████▏   | 9242/14791 [00:00<00:00, 15936.30it/s]Parsing Hierarchy :  73%|███████▎  | 10836/14791 [00:01<00:01, 3426.46it/s]Parsing Hierarchy :  84%|████████▎ | 12366/14791 [00:01<00:00, 4509.57it/s]Parsing Hierarchy :  94%|█████████▍| 13916/14791 [00:02<00:00, 5776.42it/s]Parsing Hierarchy : 100%|██████████| 14791/14791 [00:02<00:00, 7139.10it/s]
+yt : [INFO     ] 2023-09-07 11:14:26,374 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:14:26,576 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:14:26,579 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:18:04,140 Parameters: current_time              = 16.027484603413
+yt : [INFO     ] 2023-09-07 11:18:04,141 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:18:04,141 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:18:04,142 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:18:04,142 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:18:04,142 Parameters: current_redshift          = 17.001915286809
+yt : [INFO     ] 2023-09-07 11:18:04,143 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:18:04,143 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:18:04,143 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:18:04,143 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:18:04,159 Parameters: current_time              = 16.027484603413
+yt : [INFO     ] 2023-09-07 11:18:04,160 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:18:04,160 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:18:04,161 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:18:04,161 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:18:04,161 Parameters: current_redshift          = 17.001915286809
+yt : [INFO     ] 2023-09-07 11:18:04,161 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:18:04,162 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:18:04,162 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:18:04,162 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:18:04,225 Parameters: current_time              = 16.027484603413
+yt : [INFO     ] 2023-09-07 11:18:04,225 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:18:04,226 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:18:04,226 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:18:04,227 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:18:04,227 Parameters: current_redshift          = 17.001915286809
+yt : [INFO     ] 2023-09-07 11:18:04,227 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:18:04,227 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:18:04,227 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:18:04,227 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:18:04,233 Parameters: current_time              = 16.027484603413
+yt : [INFO     ] 2023-09-07 11:18:04,234 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:18:04,234 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:18:04,235 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:18:04,235 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:18:04,235 Parameters: current_redshift          = 17.001915286809
+yt : [INFO     ] 2023-09-07 11:18:04,235 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:18:04,236 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:18:04,236 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:18:04,236 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14805 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1015/14805 [00:00<00:01, 10147.37it/s]Parsing Hierarchy :  14%|█▎        | 2030/14805 [00:00<00:05, 2164.54it/s] Parsing Hierarchy :  25%|██▍       | 3641/14805 [00:00<00:02, 4283.54it/s]Parsing Hierarchy :  36%|███▌      | 5273/14805 [00:01<00:01, 6429.88it/s]Parsing Hierarchy :  47%|████▋     | 6891/14805 [00:01<00:00, 8408.92it/s]Parsing Hierarchy :  58%|█████▊    | 8528/14805 [00:01<00:00, 10197.70it/s]Parsing Hierarchy :  69%|██████▊   | 10173/14805 [00:01<00:00, 11716.70it/s]Parsing Hierarchy :  80%|███████▉  | 11826/14805 [00:01<00:00, 12957.06it/s]Parsing Hierarchy :  91%|█████████ | 13459/14805 [00:01<00:00, 13863.17it/s]Parsing Hierarchy : 100%|██████████| 14805/14805 [00:01<00:00, 9196.11it/s] 
+Parsing Hierarchy :   0%|          | 0/14805 [00:00<?, ?it/s]Parsing Hierarchy :  10%|▉         | 1412/14805 [00:00<00:07, 1685.91it/s]Parsing Hierarchy :  20%|█▉        | 2953/14805 [00:00<00:03, 3685.68it/s]Parsing Hierarchy :  31%|███       | 4529/14805 [00:01<00:01, 5765.89it/s]Parsing Hierarchy :  41%|████▏     | 6117/14805 [00:01<00:01, 7762.61it/s]Parsing Hierarchy :  52%|█████▏    | 7745/14805 [00:01<00:00, 9636.07it/s]Parsing Hierarchy :  63%|██████▎   | 9367/14805 [00:01<00:00, 11209.99it/s]Parsing Hierarchy :  74%|███████▍  | 11006/14805 [00:01<00:00, 12528.06it/s]Parsing Hierarchy :  85%|████████▌ | 12658/14805 [00:01<00:00, 13592.25it/s]Parsing Hierarchy :  96%|█████████▋| 14270/14805 [00:01<00:00, 14289.62it/s]Parsing Hierarchy : 100%|██████████| 14805/14805 [00:01<00:00, 8858.53it/s] 
+yt : [INFO     ] 2023-09-07 11:18:07,234 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/14805 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 810/14805 [00:01<00:21, 663.90it/s]Parsing Hierarchy :  16%|█▌        | 2308/14805 [00:01<00:05, 2164.31it/s]Parsing Hierarchy :  26%|██▌       | 3871/14805 [00:01<00:02, 3917.76it/s]Parsing Hierarchy :  37%|███▋      | 5495/14805 [00:01<00:01, 5850.05it/s]Parsing Hierarchy :  48%|████▊     | 7119/14805 [00:01<00:00, 7751.17it/s]Parsing Hierarchy :  59%|█████▉    | 8751/14805 [00:01<00:00, 9527.12it/s]Parsing Hierarchy :  70%|███████   | 10401/14805 [00:01<00:00, 11119.57it/s]Parsing Hierarchy :  81%|████████▏ | 12066/14805 [00:01<00:00, 12474.50it/s]Parsing Hierarchy :  93%|█████████▎| 13714/14805 [00:02<00:00, 13515.80it/s]Parsing Hierarchy : 100%|██████████| 14805/14805 [00:03<00:00, 4663.39it/s] 
+yt : [INFO     ] 2023-09-07 11:18:07,413 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/14805 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 810/14805 [00:01<00:22, 632.48it/s]Parsing Hierarchy :  15%|█▌        | 2244/14805 [00:01<00:06, 2007.98it/s]Parsing Hierarchy :  25%|██▌       | 3767/14805 [00:01<00:03, 3665.76it/s]Parsing Hierarchy :  36%|███▌      | 5314/14805 [00:01<00:01, 5458.75it/s]Parsing Hierarchy :  46%|████▋     | 6858/14805 [00:01<00:01, 7232.29it/s]Parsing Hierarchy :  57%|█████▋    | 8445/14805 [00:01<00:00, 8983.97it/s]Parsing Hierarchy :  68%|██████▊   | 10036/14805 [00:01<00:00, 10539.51it/s]Parsing Hierarchy :  78%|███████▊  | 11589/14805 [00:01<00:00, 11751.95it/s]Parsing Hierarchy :  89%|████████▉ | 13177/14805 [00:02<00:00, 12814.53it/s]Parsing Hierarchy :  99%|█████████▉| 14718/14805 [00:03<00:00, 3337.67it/s] Parsing Hierarchy : 100%|██████████| 14805/14805 [00:03<00:00, 4457.19it/s]
+yt : [INFO     ] 2023-09-07 11:18:07,726 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:18:07,960 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:21:38,459 Parameters: current_time              = 16.060126038455
+yt : [INFO     ] 2023-09-07 11:21:38,459 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:21:38,460 Parameters: current_time              = 16.060126038455
+yt : [INFO     ] 2023-09-07 11:21:38,460 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:21:38,460 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:21:38,460 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: current_redshift          = 16.977511954192
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:21:38,461 Parameters: current_redshift          = 16.977511954192
+yt : [INFO     ] 2023-09-07 11:21:38,462 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:21:38,462 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:21:38,462 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:21:38,462 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:21:38,462 Parameters: current_time              = 16.060126038455
+yt : [INFO     ] 2023-09-07 11:21:38,463 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:21:38,464 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:21:38,464 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:21:38,465 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:21:38,465 Parameters: current_redshift          = 16.977511954192
+yt : [INFO     ] 2023-09-07 11:21:38,465 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:21:38,465 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:21:38,465 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:21:38,466 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:21:38,527 Parameters: current_time              = 16.060126038455
+yt : [INFO     ] 2023-09-07 11:21:38,527 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:21:38,528 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:21:38,528 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:21:38,529 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:21:38,529 Parameters: current_redshift          = 16.977511954192
+yt : [INFO     ] 2023-09-07 11:21:38,529 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:21:38,529 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:21:38,529 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:21:38,529 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14874 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1145/14874 [00:00<00:01, 11447.15it/s]Parsing Hierarchy :  19%|█▊        | 2781/14874 [00:00<00:00, 14333.11it/s]Parsing Hierarchy :  30%|██▉       | 4400/14874 [00:00<00:00, 15179.87it/s]Parsing Hierarchy :  41%|████      | 6062/14874 [00:00<00:00, 15705.72it/s]Parsing Hierarchy :  52%|█████▏    | 7742/14874 [00:00<00:00, 16064.28it/s]Parsing Hierarchy :  63%|██████▎   | 9349/14874 [00:01<00:01, 4634.41it/s] Parsing Hierarchy :  74%|███████▍  | 10985/14874 [00:01<00:00, 6071.84it/s]Parsing Hierarchy :  85%|████████▍ | 12637/14874 [00:01<00:00, 7628.91it/s]Parsing Hierarchy :  96%|█████████▌| 14282/14874 [00:01<00:00, 9176.76it/s]Parsing Hierarchy : 100%|██████████| 14874/14874 [00:01<00:00, 8925.52it/s]
+Parsing Hierarchy :   0%|          | 0/14874 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1192/14874 [00:00<00:01, 11918.05it/s]Parsing Hierarchy :  19%|█▊        | 2782/14874 [00:00<00:00, 14259.26it/s]Parsing Hierarchy :  30%|██▉       | 4394/14874 [00:00<00:00, 15106.16it/s]Parsing Hierarchy :  41%|████      | 6037/14874 [00:00<00:00, 15626.48it/s]Parsing Hierarchy :  51%|█████     | 7600/14874 [00:01<00:01, 4179.69it/s] Parsing Hierarchy :  62%|██████▏   | 9233/14874 [00:01<00:00, 5650.61it/s]Parsing Hierarchy :  73%|███████▎  | 10878/14874 [00:01<00:00, 7242.59it/s]Parsing Hierarchy :  84%|████████▍ | 12544/14874 [00:01<00:00, 8880.25it/s]Parsing Hierarchy :  96%|█████████▌| 14208/14874 [00:01<00:00, 10424.22it/s]Parsing Hierarchy : 100%|██████████| 14874/14874 [00:01<00:00, 8744.08it/s] 
+Parsing Hierarchy :   0%|          | 0/14874 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1138/14874 [00:00<00:01, 11377.79it/s]Parsing Hierarchy :  18%|█▊        | 2749/14874 [00:00<00:00, 14157.39it/s]Parsing Hierarchy :  29%|██▉       | 4342/14874 [00:00<00:00, 14964.55it/s]Parsing Hierarchy :  40%|████      | 5971/14874 [00:00<00:00, 15484.97it/s]Parsing Hierarchy :  51%|█████     | 7619/14874 [00:00<00:00, 15841.28it/s]Parsing Hierarchy :  62%|██████▏   | 9204/14874 [00:01<00:01, 4472.09it/s] Parsing Hierarchy :  73%|███████▎  | 10792/14874 [00:01<00:00, 5847.02it/s]Parsing Hierarchy :  83%|████████▎ | 12411/14874 [00:01<00:00, 7365.85it/s]Parsing Hierarchy :  94%|█████████▍| 14016/14874 [00:01<00:00, 8871.20it/s]Parsing Hierarchy : 100%|██████████| 14874/14874 [00:01<00:00, 8728.03it/s]
+Parsing Hierarchy :   0%|          | 0/14874 [00:00<?, ?it/s]Parsing Hierarchy :  10%|▉         | 1424/14874 [00:00<00:00, 14232.79it/s]Parsing Hierarchy :  20%|██        | 3002/14874 [00:00<00:00, 15137.91it/s]Parsing Hierarchy :  31%|███       | 4611/14874 [00:00<00:00, 15569.64it/s]Parsing Hierarchy :  42%|████▏     | 6225/14874 [00:00<00:00, 15792.11it/s]Parsing Hierarchy :  52%|█████▏    | 7805/14874 [00:01<00:01, 4131.65it/s] Parsing Hierarchy :  63%|██████▎   | 9343/14874 [00:01<00:01, 5466.13it/s]Parsing Hierarchy :  73%|███████▎  | 10896/14874 [00:01<00:00, 6925.25it/s]Parsing Hierarchy :  84%|████████▍ | 12486/14874 [00:01<00:00, 8464.79it/s]Parsing Hierarchy :  95%|█████████▍| 14059/14874 [00:01<00:00, 9894.85it/s]Parsing Hierarchy : 100%|██████████| 14874/14874 [00:01<00:00, 8562.47it/s]
+yt : [INFO     ] 2023-09-07 11:21:40,514 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:21:40,547 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:21:40,566 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:21:40,683 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:25:43,156 Parameters: current_time              = 16.09276756366
+yt : [INFO     ] 2023-09-07 11:25:43,156 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:25:43,157 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:25:43,157 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:25:43,157 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:25:43,158 Parameters: current_redshift          = 16.953191069864
+yt : [INFO     ] 2023-09-07 11:25:43,158 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:25:43,158 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:25:43,158 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:25:43,158 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:25:43,163 Parameters: current_time              = 16.09276756366
+yt : [INFO     ] 2023-09-07 11:25:43,164 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:25:43,164 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:25:43,165 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:25:43,165 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:25:43,165 Parameters: current_redshift          = 16.953191069864
+yt : [INFO     ] 2023-09-07 11:25:43,165 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:25:43,165 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:25:43,166 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:25:43,166 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:25:43,201 Parameters: current_time              = 16.09276756366
+yt : [INFO     ] 2023-09-07 11:25:43,201 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:25:43,202 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:25:43,202 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:25:43,203 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:25:43,203 Parameters: current_redshift          = 16.953191069864
+yt : [INFO     ] 2023-09-07 11:25:43,203 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:25:43,203 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:25:43,204 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:25:43,204 Parameters: hubble_constant           = 0.6711
+yt : [INFO     ] 2023-09-07 11:25:43,211 Parameters: current_time              = 16.09276756366
+yt : [INFO     ] 2023-09-07 11:25:43,212 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-07 11:25:43,213 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-07 11:25:43,213 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-07 11:25:43,213 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-07 11:25:43,213 Parameters: current_redshift          = 16.953191069864
+yt : [INFO     ] 2023-09-07 11:25:43,214 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-07 11:25:43,214 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-07 11:25:43,214 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-07 11:25:43,214 Parameters: hubble_constant           = 0.6711
+Parsing Hierarchy :   0%|          | 0/14987 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1125/14987 [00:00<00:01, 11249.66it/s]Parsing Hierarchy :  15%|█▌        | 2250/14987 [00:01<00:08, 1482.55it/s] Parsing Hierarchy :  25%|██▌       | 3778/14987 [00:01<00:03, 2858.12it/s]Parsing Hierarchy :  36%|███▌      | 5360/14987 [00:01<00:02, 4472.26it/s]Parsing Hierarchy :  46%|████▋     | 6942/14987 [00:01<00:01, 6186.44it/s]Parsing Hierarchy :  57%|█████▋    | 8527/14987 [00:01<00:00, 7902.08it/s]Parsing Hierarchy :  68%|██████▊   | 10125/14987 [00:01<00:00, 9535.51it/s]Parsing Hierarchy :  79%|███████▊  | 11783/14987 [00:01<00:00, 11113.95it/s]Parsing Hierarchy :  90%|████████▉ | 13431/14987 [00:02<00:00, 12415.07it/s]Parsing Hierarchy : 100%|██████████| 14987/14987 [00:02<00:00, 7082.61it/s] 
+Parsing Hierarchy :   0%|          | 0/14987 [00:00<?, ?it/s]Parsing Hierarchy :  10%|▉         | 1430/14987 [00:00<00:00, 14298.68it/s]Parsing Hierarchy :  19%|█▉        | 2860/14987 [00:01<00:06, 1860.81it/s] Parsing Hierarchy :  29%|██▉       | 4417/14987 [00:01<00:03, 3212.04it/s]Parsing Hierarchy :  40%|████      | 6032/14987 [00:01<00:01, 4807.35it/s]Parsing Hierarchy :  51%|█████     | 7658/14987 [00:01<00:01, 6523.52it/s]Parsing Hierarchy :  62%|██████▏   | 9255/14987 [00:01<00:00, 8188.56it/s]Parsing Hierarchy :  73%|███████▎  | 10904/14987 [00:01<00:00, 9854.92it/s]Parsing Hierarchy :  84%|████████▍ | 12584/14987 [00:01<00:00, 11392.63it/s]Parsing Hierarchy :  95%|█████████▌| 14245/14987 [00:02<00:00, 12651.76it/s]Parsing Hierarchy : 100%|██████████| 14987/14987 [00:02<00:00, 7189.19it/s] 
+Parsing Hierarchy :   0%|          | 0/14987 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 895/14987 [00:01<00:19, 738.96it/s]Parsing Hierarchy :  16%|█▌        | 2383/14987 [00:01<00:05, 2230.90it/s]Parsing Hierarchy :  27%|██▋       | 3981/14987 [00:01<00:02, 4031.59it/s]Parsing Hierarchy :  37%|███▋      | 5577/14987 [00:01<00:01, 5911.31it/s]Parsing Hierarchy :  48%|████▊     | 7161/14987 [00:01<00:01, 7735.79it/s]Parsing Hierarchy :  59%|█████▊    | 8791/14987 [00:01<00:00, 9512.35it/s]Parsing Hierarchy :  70%|██████▉   | 10432/14987 [00:01<00:00, 11090.85it/s]Parsing Hierarchy :  81%|████████  | 12081/14987 [00:01<00:00, 12421.30it/s]Parsing Hierarchy :  92%|█████████▏| 13726/14987 [00:02<00:00, 13470.08it/s]Parsing Hierarchy : 100%|██████████| 14987/14987 [00:03<00:00, 4696.48it/s] 
+Parsing Hierarchy :   0%|          | 0/14987 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 895/14987 [00:01<00:20, 698.68it/s]Parsing Hierarchy :  16%|█▌        | 2368/14987 [00:01<00:05, 2106.35it/s]Parsing Hierarchy :  26%|██▋       | 3948/14987 [00:01<00:02, 3822.89it/s]Parsing Hierarchy :  37%|███▋      | 5502/14987 [00:01<00:01, 5602.28it/s]Parsing Hierarchy :  47%|████▋     | 7086/14987 [00:01<00:01, 7427.03it/s]Parsing Hierarchy :  58%|█████▊    | 8678/14987 [00:01<00:00, 9150.29it/s]Parsing Hierarchy :  68%|██████▊   | 10227/14987 [00:01<00:00, 10574.40it/s]Parsing Hierarchy :  79%|███████▊  | 11801/14987 [00:01<00:00, 11828.37it/s]Parsing Hierarchy :  89%|████████▉ | 13382/14987 [00:02<00:00, 12852.82it/s]Parsing Hierarchy : 100%|█████████▉| 14926/14987 [00:03<00:00, 3142.54it/s] Parsing Hierarchy : 100%|██████████| 14987/14987 [00:03<00:00, 4386.94it/s]
+yt : [INFO     ] 2023-09-07 11:25:46,737 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:25:46,747 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:25:46,838 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-07 11:25:47,044 Gathering a field list (this may take a moment.)
+Saving 11537 graphs...
+Graphs saved with y values!
+Y is form: [stellar_mass (MSun)]
+Saving 11537 graphs...
+Graphs saved with y values!
+Y is form: [stellar_mass (MSun)]
+Saving 11537 graphs...
+Graphs saved with y values!
+Y is form: [stellar_mass (MSun)]
+Saving 11537 graphs...
+Graphs saved with y values!
+Y is form: [stellar_mass (MSun)]
+---------------------------------------
+Begin Slurm Epilog: Sep-07-2023 11:30:03
+Job ID:        949686
+Array Job ID:  _4294967294
+User ID:       vhorvath3
+Account:       hive-jw254
+Job name:      run_python_script
+Resources:     cpu=4,mem=64G,node=4
+Rsrc Used:     cput=02:38:04,vmem=9136K,walltime=00:39:31,mem=6068K,energy_used=0
+Partition:     hive
+Nodes:         atl1-1-01-017-32-2,atl1-1-01-017-35-2,atl1-1-01-017-36-1,atl1-1-01-017-38-1
+---------------------------------------
