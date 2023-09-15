@@ -40,11 +40,11 @@ for snapshot in enzo_data:
             # Acquire stellar mass in solar masses
             stellar_mass = stellar_mass.value.item() * 5.0000000025E-34
             graph.y[halo_idx] = stellar_mass
+    # Save output after every cycle
+    print(f"Saving graphs for snapshot {snapshot}...")
+    torch.save(graphs, 'SG256_Full_Graphs.pt') # Set output dir
 
-# Save output
-print(f"Saving {len(graphs)} graphs...")
-torch.save(graphs, 'SG256_Full_Graphs.pt') # Set output dir
-print("Graphs saved with y values!")
+print(f"f{len(graphs)} Graphs saved with y values!")
 print("Y is form: [stellar_mass (MSun)]")
 
 # Check to see if any halos didn't have a snapshot they matched to
