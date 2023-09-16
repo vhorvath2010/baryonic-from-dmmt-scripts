@@ -4,12 +4,13 @@ import yt
 import collections
 import bisect
 import multiprocessing as mp
+from functools import partial
 
 # Function to load graph baryonics for a certain snapshot
-def snapshot_baryonics(graphs, snapshot):
+def snapshot_baryonics(graphs, ys, snapshot):
     snapshot.add_particle_filter('p2')
     snapshot.add_particle_filter('p3')
-    for graph in graphs:
+    for graph_idx, graph in enumerate(graphs):
         for halo_idx, halo_info in enumerate(graph.x):
             # Ensure halo is within redshift threshold
             halo_redshift = halo_info[1].item()
@@ -24,19 +25,12 @@ def snapshot_baryonics(graphs, snapshot):
         
             # Acquire stellar mass in solar masses
             stellar_mass = stellar_mass.value.item() * 5.0000000025E-34
-            graph.y[halo_idx] = stellar_mass
-    # Save output after every cycle
-    print(f"Saving graphs for snapshot {snapshot}...")
-    torch.save(graphs, 'SG256_Full_Graphs.pt') # Set output dir
-
+            ys[graph_idx][halo_idx] = stellar_mass
+    print(f"Finished snapshot {snapshot}...")
 
 yt.enable_plugins()
 enzo_data = yt.load("~jw254/data/SG256-v3/DD????/output_????") # Set to proper enzo dataset
 graphs = torch.load('SG256_pruned.pt') # Load graphs from prune_and_gen step
-
-# Initialize y values of all halos to -1 so we can validate all halos were queried
-for graph in graphs:
-    graph.y = torch.ones(len(graph.x)) * -1
 
 # Capture baryonics from Enzo snapshots
 # Adjust to whatever values are in prune_and_gen_graphs logs
@@ -45,10 +39,25 @@ POS_UNITS = 'unitary'
 
 # The acceptance threshold (percentage) for a halo to query data from a snapshot
 REDSHIFT_THRESHOLD = .25
+manager = mp.Manager()
+
+# create y's for all the graphs
+ys = manager.list([torch.ones(len(graph.x)) * -1 for graph in graphs])
+
+pool = mp.Pool(mp.cpu_count())
+snapshot_baryonics_partial = partial(snapshot_baryonics, graphs=graphs, ys=ys)
 
 # Load enzo snapshot and its baryonics
-for snapshot in enzo_data:
-    snapshot_baryonics(graphs, snapshot)
+# Run snapshot_baryonics in parallel
+pool.map(snapshot_baryonics_partial, enzo_data)
+pool.close()
+pool.join()
+
+# Save y values to graphs
+for idx, y in enumerate(ys):
+    graphs[idx].y = y
+
+torch.save(graphs, 'SG256_Full_Graphs.pt')
 print(f"f{len(graphs)} Graphs saved with y values!")
 print("Y is form: [stellar_mass (MSun)]")
 
