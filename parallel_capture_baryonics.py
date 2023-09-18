@@ -44,6 +44,8 @@ manager = mp.Manager()
 # create y's for all the graphs
 ys = manager.list([torch.ones(len(graph.x)) * -1 for graph in graphs])
 
+# multiprocessing pool
+print(f'creating pool with {mp.cpu_count()} cpus')
 pool = mp.Pool(mp.cpu_count())
 snapshot_baryonics_partial = partial(snapshot_baryonics, graphs=graphs, ys=ys)
 
