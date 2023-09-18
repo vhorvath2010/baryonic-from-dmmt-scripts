@@ -6,17 +6,24 @@ import bisect
 import multiprocessing as mp
 from functools import partial
 
+# The acceptance threshold (percentage) for a halo to query data from a snapshot
+REDSHIFT_THRESHOLD = .25
+
 # Function to load graph baryonics for a certain snapshot
-def snapshot_baryonics(graphs, ys, snapshot):
+# into a yt parallelism result
+def snapshot_baryonics(graphs, sto, snapshot):
+    # create y's for all the graphs
+    ys = [torch.ones(len(graph.x)) * -1 for graph in graphs]
+
     snapshot.add_particle_filter('p2')
     snapshot.add_particle_filter('p3')
+    
     for graph_idx, graph in enumerate(graphs):
         for halo_idx, halo_info in enumerate(graph.x):
             # Ensure halo is within redshift threshold
             halo_redshift = halo_info[1].item()
             if 100 * abs(snapshot.current_redshift - halo_redshift) / halo_redshift > REDSHIFT_THRESHOLD:
                 continue
-
             # Load Stellar mass from pop2 mass
             halo_pos = snapshot.arr(halo_info[2:5].tolist(), POS_UNITS)
             halo_rVir = snapshot.arr(halo_info[-1].item(), RVIR_UNITS)
@@ -26,9 +33,12 @@ def snapshot_baryonics(graphs, ys, snapshot):
             # Acquire stellar mass in solar masses
             stellar_mass = stellar_mass.value.item() * 5.0000000025E-34
             ys[graph_idx][halo_idx] = stellar_mass
-    print(f"Finished snapshot {snapshot}...")
+    sto.result = ys
+    sto.result_id = snapshot.current_redshift
+    print(f"Finished snapshot {snapshot.current_redshift}...")
 
 yt.enable_plugins()
+yt.enable_parallelism()
 enzo_data = yt.load("~jw254/data/SG256-v3/DD????/output_????") # Set to proper enzo dataset
 graphs = torch.load('SG256_pruned.pt') # Load graphs from prune_and_gen step
 
@@ -37,26 +47,28 @@ graphs = torch.load('SG256_pruned.pt') # Load graphs from prune_and_gen step
 RVIR_UNITS = 'kpc'
 POS_UNITS = 'unitary'
 
-# The acceptance threshold (percentage) for a halo to query data from a snapshot
-REDSHIFT_THRESHOLD = .25
-manager = mp.Manager()
+# multiprocessing cpus
+cpus = mp.cpu_count()
+print(f'yt parallelism with {cpus} cpus')
 
-# create y's for all the graphs
-ys = manager.list([torch.ones(len(graph.x)) * -1 for graph in graphs])
-
-# multiprocessing pool
-print(f'creating pool with {mp.cpu_count()} cpus')
-pool = mp.Pool(mp.cpu_count())
-snapshot_baryonics_partial = partial(snapshot_baryonics, graphs=graphs, ys=ys)
-
-# Load enzo snapshot and its baryonics
 # Run snapshot_baryonics in parallel
-pool.map(snapshot_baryonics_partial, enzo_data)
-pool.close()
-pool.join()
+parallelism_storage = {}
+
+for sto, snapshot in yt.parallel_objects(enzo_data, cpus, storage=parallelism_storage):
+    # Get the outputs for this snapshot
+    snapshot_baryonics(graphs, sto, snapshot)
+
+# Compile finalized y's (take outputs for a graph where the value isnt -1
+combined_ys = [torch.ones(len(graph.x)) * -1 for graph in graphs]
+
+for run in parallelism_storage.values():
+    for y_idx, y in enumerate(run):
+        for v_idx, v in y:
+            if v != -1:
+                combined_ys[y_idx][v_idx] = v
 
 # Save y values to graphs
-for idx, y in enumerate(ys):
+for idx, y in enumerate(combined_ys):
     graphs[idx].y = y
 
 torch.save(graphs, 'SG256_Full_Graphs.pt')
