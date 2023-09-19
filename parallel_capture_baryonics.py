@@ -72,7 +72,7 @@ for idx, y in enumerate(combined_ys):
     graphs[idx].y = y
 
 torch.save(graphs, 'SG256_Full_Graphs.pt')
-print(f"f{len(graphs)} Graphs saved with y values!")
+print(f"{len(graphs)} Graphs saved with y values!")
 print("Y is form: [stellar_mass (MSun)]")
 
 # Check to see if any halos didn't have a snapshot they matched to
