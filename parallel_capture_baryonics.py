@@ -54,7 +54,7 @@ print(f'yt parallelism with {cpus} cpus')
 # Run snapshot_baryonics in parallel
 parallelism_storage = {}
 
-for sto, snapshot in yt.parallel_objects(enzo_data, cpus, storage=parallelism_storage):
+for sto, snapshot in yt.parallel_objects(enzo_data[0:10], cpus, storage=parallelism_storage):
     # Get the outputs for this snapshot
     snapshot_baryonics(graphs, sto, snapshot)
 
@@ -63,7 +63,7 @@ combined_ys = [torch.ones(len(graph.x)) * -1 for graph in graphs]
 
 for run in parallelism_storage.values():
     for y_idx, y in enumerate(run):
-        for v_idx, v in y:
+        for v_idx, v in enumerate(y):
             if v != -1:
                 combined_ys[y_idx][v_idx] = v
 
