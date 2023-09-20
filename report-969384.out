@@ -4346,3 +4346,679 @@ yt : [INFO     ] 2023-09-19 23:05:16,840 Parameters: hubble_constant           =
 Finished snapshot 16.460753059605...
 Parsing Hierarchy :   0%|          | 0/14598 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1215/14598 [00:00<00:01, 12146.45it/s]Parsing Hierarchy :  20%|█▉        | 2847/14598 [00:00<00:00, 14598.63it/s]Parsing Hierarchy :  31%|███       | 4488/14598 [00:00<00:00, 15424.22it/s]Parsing Hierarchy :  42%|████▏     | 6148/14598 [00:00<00:00, 15886.38it/s]Parsing Hierarchy :  53%|█████▎    | 7776/14598 [00:00<00:00, 16025.67it/s]Parsing Hierarchy :  65%|██████▍   | 9428/14598 [00:00<00:00, 16191.34it/s]Parsing Hierarchy :  76%|███████▌  | 11074/14598 [00:00<00:00, 16277.14it/s]Parsing Hierarchy :  87%|████████▋ | 12748/14598 [00:00<00:00, 16423.55it/s]Parsing Hierarchy :  99%|█████████▉| 14450/14598 [00:00<00:00, 16609.21it/s]Parsing Hierarchy : 100%|██████████| 14598/14598 [00:00<00:00, 16053.65it/s]
 yt : [INFO     ] 2023-09-19 23:05:19,119 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-19 23:27:55,302 Parameters: current_time              = 16.843523896587
+yt : [INFO     ] 2023-09-19 23:27:55,303 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-19 23:27:55,304 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-19 23:27:55,304 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-19 23:27:55,304 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-19 23:27:55,305 Parameters: current_redshift          = 16.415600829978
+yt : [INFO     ] 2023-09-19 23:27:55,305 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-19 23:27:55,305 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-19 23:27:55,305 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-19 23:27:55,305 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.43814045634...
+Parsing Hierarchy :   0%|          | 0/14874 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1146/14874 [00:00<00:01, 11453.27it/s]Parsing Hierarchy :  19%|█▉        | 2800/14874 [00:00<00:00, 14441.65it/s]Parsing Hierarchy :  29%|██▊       | 4245/14874 [00:02<00:09, 1112.22it/s] Parsing Hierarchy :  40%|███▉      | 5876/14874 [00:03<00:04, 1838.82it/s]Parsing Hierarchy :  51%|█████     | 7529/14874 [00:03<00:02, 2778.00it/s]Parsing Hierarchy :  62%|██████▏   | 9200/14874 [00:03<00:01, 3943.91it/s]Parsing Hierarchy :  73%|███████▎  | 10853/14874 [00:03<00:00, 5287.58it/s]Parsing Hierarchy :  84%|████████▍ | 12492/14874 [00:03<00:00, 6756.90it/s]Parsing Hierarchy :  95%|█████████▍| 14128/14874 [00:03<00:00, 8283.59it/s]Parsing Hierarchy : 100%|██████████| 14874/14874 [00:03<00:00, 4165.39it/s]
+yt : [INFO     ] 2023-09-19 23:27:59,449 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-19 23:45:31,512 Parameters: current_time              = 16.908806919117
+yt : [INFO     ] 2023-09-19 23:45:31,513 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-19 23:45:31,514 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-19 23:45:31,514 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-19 23:45:31,514 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-19 23:45:31,514 Parameters: current_redshift          = 16.370739367951
+yt : [INFO     ] 2023-09-19 23:45:31,514 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-19 23:45:31,514 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-19 23:45:31,514 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-19 23:45:31,514 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.415600829978...
+Parsing Hierarchy :   0%|          | 0/15073 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 937/15073 [00:00<00:01, 9369.47it/s]Parsing Hierarchy :  17%|█▋        | 2555/15073 [00:00<00:00, 13370.55it/s]Parsing Hierarchy :  28%|██▊       | 4249/15073 [00:00<00:00, 14999.67it/s]Parsing Hierarchy :  40%|███▉      | 5954/15073 [00:00<00:00, 15806.29it/s]Parsing Hierarchy :  51%|█████     | 7667/15073 [00:00<00:00, 16280.73it/s]Parsing Hierarchy :  62%|██████▏   | 9392/15073 [00:00<00:00, 16609.34it/s]Parsing Hierarchy :  73%|███████▎  | 11053/15073 [00:03<00:02, 1511.05it/s]Parsing Hierarchy :  84%|████████▍ | 12684/15073 [00:03<00:01, 2114.08it/s]Parsing Hierarchy :  95%|█████████▌| 14329/15073 [00:03<00:00, 2902.70it/s]Parsing Hierarchy : 100%|██████████| 15073/15073 [00:04<00:00, 3766.52it/s]
+yt : [INFO     ] 2023-09-19 23:45:36,085 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-19 23:58:23,334 Parameters: current_time              = 16.974090256026
+yt : [INFO     ] 2023-09-19 23:58:23,335 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-19 23:58:23,336 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-19 23:58:23,336 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-19 23:58:23,336 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-19 23:58:23,336 Parameters: current_redshift          = 16.32616545729
+yt : [INFO     ] 2023-09-19 23:58:23,336 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-19 23:58:23,336 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-19 23:58:23,336 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-19 23:58:23,336 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.370739367951...
+Parsing Hierarchy :   0%|          | 0/15115 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1081/15115 [00:00<00:01, 10806.48it/s]Parsing Hierarchy :  18%|█▊        | 2702/15115 [00:00<00:00, 13980.82it/s]Parsing Hierarchy :  29%|██▉       | 4347/15115 [00:00<00:00, 15107.22it/s]Parsing Hierarchy :  40%|███▉      | 6012/15115 [00:00<00:00, 15712.23it/s]Parsing Hierarchy :  51%|█████     | 7677/15115 [00:00<00:00, 16049.58it/s]Parsing Hierarchy :  62%|██████▏   | 9347/15115 [00:00<00:00, 16270.53it/s]Parsing Hierarchy :  73%|███████▎  | 11006/15115 [00:00<00:00, 16373.81it/s]Parsing Hierarchy :  84%|████████▍ | 12688/15115 [00:00<00:00, 16513.42it/s]Parsing Hierarchy :  95%|█████████▌| 14395/15115 [00:00<00:00, 16687.36it/s]Parsing Hierarchy : 100%|██████████| 15115/15115 [00:00<00:00, 16036.20it/s]
+yt : [INFO     ] 2023-09-19 23:58:24,844 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 00:10:45,071 Parameters: current_time              = 17.039373307369
+yt : [INFO     ] 2023-09-20 00:10:45,072 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 00:10:45,072 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 00:10:45,072 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 00:10:45,073 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 00:10:45,073 Parameters: current_redshift          = 16.281876565775
+yt : [INFO     ] 2023-09-20 00:10:45,073 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 00:10:45,073 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 00:10:45,073 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 00:10:45,073 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.32616545729...
+Parsing Hierarchy :   0%|          | 0/15123 [00:00<?, ?it/s]Parsing Hierarchy :   0%|          | 2/15123 [00:00<51:38,  4.88it/s]Parsing Hierarchy :  11%|█         | 1610/15123 [00:00<00:03, 4159.31it/s]Parsing Hierarchy :  21%|██▏       | 3246/15123 [00:00<00:01, 7448.48it/s]Parsing Hierarchy :  32%|███▏      | 4913/15123 [00:00<00:01, 10011.32it/s]Parsing Hierarchy :  43%|████▎     | 6574/15123 [00:00<00:00, 11885.73it/s]Parsing Hierarchy :  54%|█████▍    | 8192/15123 [00:00<00:00, 13124.80it/s]Parsing Hierarchy :  65%|██████▌   | 9842/15123 [00:01<00:00, 14110.27it/s]Parsing Hierarchy :  76%|███████▌  | 11493/15123 [00:01<00:00, 14815.82it/s]Parsing Hierarchy :  87%|████████▋ | 13153/15123 [00:01<00:00, 15318.36it/s]Parsing Hierarchy :  98%|█████████▊| 14862/15123 [00:01<00:00, 15842.53it/s]Parsing Hierarchy : 100%|██████████| 15123/15123 [00:01<00:00, 11405.31it/s]
+yt : [INFO     ] 2023-09-20 00:10:46,973 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 00:23:38,604 Parameters: current_time              = 17.104656348409
+yt : [INFO     ] 2023-09-20 00:23:38,605 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 00:23:38,605 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 00:23:38,606 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 00:23:38,606 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 00:23:38,606 Parameters: current_redshift          = 16.237869431195
+yt : [INFO     ] 2023-09-20 00:23:38,606 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 00:23:38,606 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 00:23:38,606 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 00:23:38,606 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.281876565775...
+Parsing Hierarchy :   0%|          | 0/15344 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1136/15344 [00:00<00:01, 11355.68it/s]Parsing Hierarchy :  18%|█▊        | 2779/15344 [00:00<00:00, 14336.74it/s]Parsing Hierarchy :  27%|██▋       | 4213/15344 [00:03<00:10, 1075.54it/s] Parsing Hierarchy :  38%|███▊      | 5821/15344 [00:03<00:05, 1775.33it/s]Parsing Hierarchy :  49%|████▉     | 7483/15344 [00:03<00:02, 2701.77it/s]Parsing Hierarchy :  60%|█████▉    | 9160/15344 [00:03<00:01, 3853.99it/s]Parsing Hierarchy :  71%|███████   | 10833/15344 [00:03<00:00, 5202.72it/s]Parsing Hierarchy :  81%|████████▏ | 12490/15344 [00:03<00:00, 6682.27it/s]Parsing Hierarchy :  92%|█████████▏| 14162/15344 [00:03<00:00, 8255.78it/s]Parsing Hierarchy : 100%|██████████| 15344/15344 [00:03<00:00, 4179.02it/s]
+yt : [INFO     ] 2023-09-20 00:23:42,844 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 00:36:02,222 Parameters: current_time              = 17.169939501949
+yt : [INFO     ] 2023-09-20 00:36:02,224 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 00:36:02,224 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 00:36:02,224 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 00:36:02,225 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 00:36:02,225 Parameters: current_redshift          = 16.194141204762
+yt : [INFO     ] 2023-09-20 00:36:02,225 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 00:36:02,225 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 00:36:02,225 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 00:36:02,225 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.237869431195...
+Parsing Hierarchy :   0%|          | 0/15462 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1082/15462 [00:00<00:01, 10817.30it/s]Parsing Hierarchy :  18%|█▊        | 2718/15462 [00:00<00:00, 14073.85it/s]Parsing Hierarchy :  29%|██▊       | 4425/15462 [00:00<00:00, 15439.79it/s]Parsing Hierarchy :  40%|███▉      | 6138/15462 [00:00<00:00, 16105.76it/s]Parsing Hierarchy :  51%|█████     | 7884/15462 [00:00<00:00, 16593.73it/s]Parsing Hierarchy :  62%|██████▏   | 9582/15462 [00:00<00:00, 16724.42it/s]Parsing Hierarchy :  73%|███████▎  | 11255/15462 [00:03<00:02, 1494.81it/s]Parsing Hierarchy :  83%|████████▎ | 12872/15462 [00:03<00:01, 2082.70it/s]Parsing Hierarchy :  94%|█████████▍| 14512/15462 [00:04<00:00, 2857.72it/s]Parsing Hierarchy : 100%|██████████| 15462/15462 [00:04<00:00, 3794.19it/s]
+yt : [INFO     ] 2023-09-20 00:36:06,877 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 00:48:59,871 Parameters: current_time              = 17.235222803818
+yt : [INFO     ] 2023-09-20 00:48:59,873 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 00:48:59,873 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 00:48:59,873 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 00:48:59,874 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 00:48:59,874 Parameters: current_redshift          = 16.150689124737
+yt : [INFO     ] 2023-09-20 00:48:59,874 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 00:48:59,874 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 00:48:59,874 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 00:48:59,874 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.194141204762...
+Parsing Hierarchy :   0%|          | 0/15566 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1047/15566 [00:00<00:01, 10469.49it/s]Parsing Hierarchy :  17%|█▋        | 2673/15566 [00:00<00:00, 13872.40it/s]Parsing Hierarchy :  28%|██▊       | 4337/15566 [00:00<00:00, 15132.77it/s]Parsing Hierarchy :  39%|███▊      | 5997/15566 [00:00<00:00, 15711.59it/s]Parsing Hierarchy :  49%|████▉     | 7652/15566 [00:00<00:00, 16012.69it/s]Parsing Hierarchy :  60%|█████▉    | 9307/15566 [00:00<00:00, 16193.35it/s]Parsing Hierarchy :  71%|███████   | 10980/15566 [00:00<00:00, 16366.68it/s]Parsing Hierarchy :  81%|████████▏ | 12676/15566 [00:00<00:00, 16553.79it/s]Parsing Hierarchy :  92%|█████████▏| 14385/15566 [00:00<00:00, 16718.88it/s]Parsing Hierarchy : 100%|██████████| 15566/15566 [00:00<00:00, 16053.92it/s]
+yt : [INFO     ] 2023-09-20 00:49:04,106 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 01:03:49,547 Parameters: current_time              = 17.300505904288
+yt : [INFO     ] 2023-09-20 01:03:49,548 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 01:03:49,548 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 01:03:49,549 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 01:03:49,549 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 01:03:49,549 Parameters: current_redshift          = 16.107510641959
+yt : [INFO     ] 2023-09-20 01:03:49,549 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 01:03:49,549 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 01:03:49,549 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 01:03:49,549 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.150689124737...
+Parsing Hierarchy :   0%|          | 0/15717 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 905/15717 [00:00<00:01, 9044.40it/s]Parsing Hierarchy :  16%|█▌        | 2541/15717 [00:00<00:00, 13345.71it/s]Parsing Hierarchy :  27%|██▋       | 4201/15717 [00:00<00:00, 14828.87it/s]Parsing Hierarchy :  37%|███▋      | 5811/15717 [00:00<00:00, 15329.83it/s]Parsing Hierarchy :  48%|████▊     | 7466/15717 [00:00<00:00, 15765.71it/s]Parsing Hierarchy :  58%|█████▊    | 9115/15717 [00:00<00:00, 16010.83it/s]Parsing Hierarchy :  68%|██████▊   | 10762/15717 [00:00<00:00, 16159.65it/s]Parsing Hierarchy :  79%|███████▉  | 12415/15717 [00:00<00:00, 16275.86it/s]Parsing Hierarchy :  90%|████████▉ | 14117/15717 [00:00<00:00, 16507.62it/s]Parsing Hierarchy : 100%|██████████| 15717/15717 [00:00<00:00, 15798.22it/s]
+yt : [INFO     ] 2023-09-20 01:03:51,149 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 01:18:18,242 Parameters: current_time              = 17.365789116167
+yt : [INFO     ] 2023-09-20 01:18:18,243 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 01:18:18,244 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 01:18:18,244 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 01:18:18,244 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 01:18:18,245 Parameters: current_redshift          = 16.064602805735
+yt : [INFO     ] 2023-09-20 01:18:18,245 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 01:18:18,245 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 01:18:18,245 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 01:18:18,245 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.107510641959...
+Parsing Hierarchy :   0%|          | 0/15756 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 959/15756 [00:02<00:43, 343.29it/s]Parsing Hierarchy :  13%|█▎        | 2065/15756 [00:02<00:15, 864.64it/s]Parsing Hierarchy :  23%|██▎       | 3660/15756 [00:02<00:06, 1844.90it/s]Parsing Hierarchy :  34%|███▎      | 5305/15756 [00:03<00:03, 3085.40it/s]Parsing Hierarchy :  44%|████▍     | 6960/15756 [00:03<00:01, 4542.45it/s]Parsing Hierarchy :  55%|█████▍    | 8637/15756 [00:03<00:01, 6179.45it/s]Parsing Hierarchy :  65%|██████▌   | 10314/15756 [00:03<00:00, 7879.01it/s]Parsing Hierarchy :  76%|███████▌  | 11957/15756 [00:03<00:00, 9473.20it/s]Parsing Hierarchy :  87%|████████▋ | 13644/15756 [00:03<00:00, 11028.66it/s]Parsing Hierarchy :  97%|█████████▋| 15281/15756 [00:03<00:00, 12261.29it/s]Parsing Hierarchy : 100%|██████████| 15756/15756 [00:03<00:00, 4232.80it/s] 
+yt : [INFO     ] 2023-09-20 01:18:22,592 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 01:32:24,945 Parameters: current_time              = 17.431072266114
+yt : [INFO     ] 2023-09-20 01:32:24,946 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 01:32:24,946 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 01:32:24,947 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 01:32:24,947 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 01:32:24,947 Parameters: current_redshift          = 16.021962972503
+yt : [INFO     ] 2023-09-20 01:32:24,947 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 01:32:24,947 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 01:32:24,947 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 01:32:24,947 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.064602805735...
+Parsing Hierarchy :   0%|          | 0/15911 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▍         | 722/15911 [00:00<00:02, 7216.20it/s]Parsing Hierarchy :  15%|█▍        | 2337/15911 [00:00<00:01, 12469.41it/s]Parsing Hierarchy :  25%|██▌       | 4048/15911 [00:00<00:00, 14584.67it/s]Parsing Hierarchy :  36%|███▌      | 5761/15911 [00:00<00:00, 15581.43it/s]Parsing Hierarchy :  47%|████▋     | 7487/15911 [00:00<00:00, 16185.68it/s]Parsing Hierarchy :  57%|█████▋    | 9106/15911 [00:03<00:04, 1371.44it/s] Parsing Hierarchy :  68%|██████▊   | 10740/15911 [00:03<00:02, 1962.86it/s]Parsing Hierarchy :  78%|███████▊  | 12395/15911 [00:03<00:01, 2742.19it/s]Parsing Hierarchy :  88%|████████▊ | 14036/15911 [00:04<00:00, 3711.33it/s]Parsing Hierarchy :  99%|█████████▊| 15690/15911 [00:04<00:00, 4891.33it/s]Parsing Hierarchy : 100%|██████████| 15911/15911 [00:04<00:00, 3794.48it/s]
+yt : [INFO     ] 2023-09-20 01:32:29,726 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 01:46:40,591 Parameters: current_time              = 17.496355490799
+yt : [INFO     ] 2023-09-20 01:46:40,593 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 01:46:40,593 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 01:46:40,594 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 01:46:40,594 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 01:46:40,594 Parameters: current_redshift          = 15.979588234557
+yt : [INFO     ] 2023-09-20 01:46:40,594 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 01:46:40,594 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 01:46:40,594 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 01:46:40,594 Parameters: hubble_constant           = 0.6711
+Finished snapshot 16.021962972503...
+Parsing Hierarchy :   0%|          | 0/16196 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 860/16196 [00:00<00:01, 8596.30it/s]Parsing Hierarchy :  15%|█▌        | 2451/16196 [00:00<00:01, 12896.22it/s]Parsing Hierarchy :  25%|██▌       | 4112/16196 [00:00<00:00, 14588.32it/s]Parsing Hierarchy :  36%|███▌      | 5773/16196 [00:00<00:00, 15384.97it/s]Parsing Hierarchy :  46%|████▌     | 7437/16196 [00:00<00:00, 15836.35it/s]Parsing Hierarchy :  56%|█████▌    | 9110/16196 [00:00<00:00, 16137.45it/s]Parsing Hierarchy :  67%|██████▋   | 10792/16196 [00:00<00:00, 16357.71it/s]Parsing Hierarchy :  77%|███████▋  | 12499/16196 [00:00<00:00, 16583.86it/s]Parsing Hierarchy :  87%|████████▋ | 14158/16196 [00:03<00:01, 1761.06it/s] Parsing Hierarchy :  97%|█████████▋| 15776/16196 [00:03<00:00, 2413.66it/s]Parsing Hierarchy : 100%|██████████| 16196/16196 [00:03<00:00, 4353.20it/s]
+yt : [INFO     ] 2023-09-20 01:46:44,936 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 02:00:45,642 Parameters: current_time              = 17.56163862794
+yt : [INFO     ] 2023-09-20 02:00:45,643 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 02:00:45,643 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 02:00:45,644 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 02:00:45,644 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 02:00:45,644 Parameters: current_redshift          = 15.937476269541
+yt : [INFO     ] 2023-09-20 02:00:45,644 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 02:00:45,644 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 02:00:45,644 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 02:00:45,644 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.979588234557...
+Parsing Hierarchy :   0%|          | 0/16261 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1141/16261 [00:00<00:01, 11387.75it/s]Parsing Hierarchy :  17%|█▋        | 2815/16261 [00:00<00:00, 14530.49it/s]Parsing Hierarchy :  28%|██▊       | 4474/16261 [00:00<00:00, 15467.30it/s]Parsing Hierarchy :  38%|███▊      | 6108/16261 [00:00<00:00, 15810.97it/s]Parsing Hierarchy :  48%|████▊     | 7748/16261 [00:00<00:00, 16019.93it/s]Parsing Hierarchy :  58%|█████▊    | 9387/16261 [00:00<00:00, 16142.90it/s]Parsing Hierarchy :  68%|██████▊   | 11078/16261 [00:00<00:00, 16392.68it/s]Parsing Hierarchy :  79%|███████▊  | 12789/16261 [00:00<00:00, 16619.46it/s]Parsing Hierarchy :  89%|████████▉ | 14502/16261 [00:00<00:00, 16777.05it/s]Parsing Hierarchy : 100%|█████████▉| 16214/16261 [00:01<00:00, 16882.31it/s]Parsing Hierarchy : 100%|██████████| 16261/16261 [00:01<00:00, 16186.12it/s]
+yt : [INFO     ] 2023-09-20 02:00:47,243 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 02:15:20,903 Parameters: current_time              = 17.626921586412
+yt : [INFO     ] 2023-09-20 02:15:20,904 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 02:15:20,904 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 02:15:20,905 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 02:15:20,905 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 02:15:20,905 Parameters: current_redshift          = 15.895624538284
+yt : [INFO     ] 2023-09-20 02:15:20,905 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 02:15:20,905 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 02:15:20,905 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 02:15:20,905 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.937476269541...
+Parsing Hierarchy :   0%|          | 0/16422 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1119/16422 [00:00<00:01, 11187.77it/s]Parsing Hierarchy :  17%|█▋        | 2762/16422 [00:00<00:00, 14270.27it/s]Parsing Hierarchy :  27%|██▋       | 4417/16422 [00:00<00:00, 15309.08it/s]Parsing Hierarchy :  37%|███▋      | 6081/16422 [00:00<00:00, 15832.99it/s]Parsing Hierarchy :  47%|████▋     | 7704/16422 [00:00<00:00, 15973.13it/s]Parsing Hierarchy :  57%|█████▋    | 9346/16422 [00:00<00:00, 16124.58it/s]Parsing Hierarchy :  67%|██████▋   | 10990/16422 [00:00<00:00, 16227.46it/s]Parsing Hierarchy :  77%|███████▋  | 12676/16422 [00:00<00:00, 16427.80it/s]Parsing Hierarchy :  87%|████████▋ | 14332/16422 [00:00<00:00, 16468.82it/s]Parsing Hierarchy :  97%|█████████▋| 15980/16422 [00:01<00:00, 16469.76it/s]Parsing Hierarchy : 100%|██████████| 16422/16422 [00:01<00:00, 15988.04it/s]
+yt : [INFO     ] 2023-09-20 02:15:22,536 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 02:30:41,965 Parameters: current_time              = 17.692204890842
+yt : [INFO     ] 2023-09-20 02:30:41,966 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 02:30:41,966 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 02:30:41,967 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 02:30:41,967 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 02:30:41,967 Parameters: current_redshift          = 15.854030144244
+yt : [INFO     ] 2023-09-20 02:30:41,967 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 02:30:41,967 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 02:30:41,967 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 02:30:41,967 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.895624538284...
+Parsing Hierarchy :   0%|          | 0/16462 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1196/16462 [00:00<00:01, 11958.41it/s]Parsing Hierarchy :  17%|█▋        | 2824/16462 [00:00<00:00, 14499.13it/s]Parsing Hierarchy :  26%|██▌       | 4274/16462 [00:03<00:11, 1032.50it/s] Parsing Hierarchy :  36%|███▌      | 5895/16462 [00:03<00:06, 1706.14it/s]Parsing Hierarchy :  46%|████▌     | 7510/16462 [00:03<00:03, 2567.32it/s]Parsing Hierarchy :  56%|█████▌    | 9149/16462 [00:03<00:02, 3650.59it/s]Parsing Hierarchy :  66%|██████▌   | 10802/16462 [00:03<00:01, 4948.61it/s]Parsing Hierarchy :  76%|███████▌  | 12441/16462 [00:03<00:00, 6388.38it/s]Parsing Hierarchy :  85%|████████▌ | 14071/16462 [00:03<00:00, 7898.66it/s]Parsing Hierarchy :  95%|█████████▌| 15701/16462 [00:03<00:00, 9390.01it/s]Parsing Hierarchy : 100%|██████████| 16462/16462 [00:03<00:00, 4216.38it/s]
+yt : [INFO     ] 2023-09-20 02:30:46,481 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 02:46:34,494 Parameters: current_time              = 17.757488167798
+yt : [INFO     ] 2023-09-20 02:46:34,495 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 02:46:34,495 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 02:46:34,496 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 02:46:34,496 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 02:46:34,496 Parameters: current_redshift          = 15.812690800563
+yt : [INFO     ] 2023-09-20 02:46:34,496 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 02:46:34,496 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 02:46:34,496 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 02:46:34,496 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.854030144244...
+Parsing Hierarchy :   0%|          | 0/16625 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1117/16625 [00:00<00:01, 11165.64it/s]Parsing Hierarchy :  16%|█▋        | 2732/16625 [00:00<00:00, 14096.03it/s]Parsing Hierarchy :  27%|██▋       | 4424/16625 [00:00<00:00, 15383.24it/s]Parsing Hierarchy :  37%|███▋      | 6115/16625 [00:00<00:00, 15982.68it/s]Parsing Hierarchy :  47%|████▋     | 7772/16625 [00:00<00:00, 16192.62it/s]Parsing Hierarchy :  57%|█████▋    | 9429/16625 [00:00<00:00, 16316.32it/s]Parsing Hierarchy :  67%|██████▋   | 11061/16625 [00:03<00:03, 1409.20it/s]Parsing Hierarchy :  76%|███████▋  | 12700/16625 [00:04<00:01, 1989.79it/s]Parsing Hierarchy :  86%|████████▌ | 14320/16625 [00:04<00:00, 2735.25it/s]Parsing Hierarchy :  96%|█████████▌| 15930/16625 [00:04<00:00, 3666.93it/s]Parsing Hierarchy : 100%|██████████| 16625/16625 [00:04<00:00, 3885.20it/s]
+yt : [INFO     ] 2023-09-20 02:46:39,404 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 03:02:59,273 Parameters: current_time              = 17.822771088989
+yt : [INFO     ] 2023-09-20 03:02:59,274 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 03:02:59,274 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 03:02:59,275 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 03:02:59,275 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 03:02:59,275 Parameters: current_redshift          = 15.771604062588
+yt : [INFO     ] 2023-09-20 03:02:59,275 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 03:02:59,275 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 03:02:59,275 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 03:02:59,275 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.812690800563...
+Parsing Hierarchy :   0%|          | 0/16667 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1036/16667 [00:00<00:01, 10355.96it/s]Parsing Hierarchy :  16%|█▌        | 2658/16667 [00:00<00:01, 13803.78it/s]Parsing Hierarchy :  26%|██▌       | 4331/16667 [00:00<00:00, 15136.18it/s]Parsing Hierarchy :  36%|███▌      | 6000/16667 [00:00<00:00, 15748.52it/s]Parsing Hierarchy :  46%|████▌     | 7670/16667 [00:00<00:00, 16091.27it/s]Parsing Hierarchy :  56%|█████▌    | 9327/16667 [00:00<00:00, 16251.65it/s]Parsing Hierarchy :  66%|██████▌   | 11009/16667 [00:00<00:00, 16435.71it/s]Parsing Hierarchy :  76%|███████▌  | 12688/16667 [00:00<00:00, 16546.88it/s]Parsing Hierarchy :  86%|████████▌ | 14353/16667 [00:00<00:00, 16578.83it/s]Parsing Hierarchy :  96%|█████████▌| 16011/16667 [00:01<00:00, 16253.65it/s]Parsing Hierarchy : 100%|██████████| 16667/16667 [00:03<00:00, 4320.33it/s] 
+yt : [INFO     ] 2023-09-20 03:03:03,744 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 03:19:23,308 Parameters: current_time              = 17.888054217107
+yt : [INFO     ] 2023-09-20 03:19:23,321 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 03:19:23,321 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 03:19:23,322 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 03:19:23,322 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 03:19:23,322 Parameters: current_redshift          = 15.730767175748
+yt : [INFO     ] 2023-09-20 03:19:23,322 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 03:19:23,322 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 03:19:23,322 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 03:19:23,322 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.771604062588...
+Parsing Hierarchy :   0%|          | 0/16750 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1030/16750 [00:00<00:01, 10297.38it/s]Parsing Hierarchy :  16%|█▌        | 2670/16750 [00:00<00:01, 13886.61it/s]Parsing Hierarchy :  26%|██▌       | 4333/16750 [00:00<00:00, 15109.62it/s]Parsing Hierarchy :  36%|███▌      | 5985/16750 [00:00<00:00, 15662.23it/s]Parsing Hierarchy :  45%|████▌     | 7604/16750 [00:00<00:00, 15848.74it/s]Parsing Hierarchy :  55%|█████▌    | 9229/16750 [00:00<00:00, 15981.54it/s]Parsing Hierarchy :  65%|██████▍   | 10885/16750 [00:00<00:00, 16148.37it/s]Parsing Hierarchy :  75%|███████▌  | 12565/16750 [00:00<00:00, 16337.50it/s]Parsing Hierarchy :  85%|████████▌ | 14260/16750 [00:00<00:00, 16526.30it/s]Parsing Hierarchy :  95%|█████████▌| 15967/16750 [00:01<00:00, 16690.48it/s]Parsing Hierarchy : 100%|██████████| 16750/16750 [00:01<00:00, 15995.91it/s]
+yt : [INFO     ] 2023-09-20 03:19:24,976 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 03:47:02,952 Parameters: current_time              = 17.95333758964
+yt : [INFO     ] 2023-09-20 03:47:02,965 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 03:47:02,966 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 03:47:02,966 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 03:47:02,967 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 03:47:02,967 Parameters: current_redshift          = 15.690177792673
+yt : [INFO     ] 2023-09-20 03:47:02,967 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 03:47:02,967 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 03:47:02,967 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 03:47:02,967 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.730767175748...
+Parsing Hierarchy :   0%|          | 0/16804 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1135/16804 [00:00<00:01, 11346.20it/s]Parsing Hierarchy :  17%|█▋        | 2789/16804 [00:00<00:00, 14399.43it/s]Parsing Hierarchy :  27%|██▋       | 4455/16804 [00:00<00:00, 15430.88it/s]Parsing Hierarchy :  36%|███▋      | 6120/16804 [00:00<00:00, 15909.05it/s]Parsing Hierarchy :  46%|████▌     | 7745/16804 [00:00<00:00, 16031.44it/s]Parsing Hierarchy :  56%|█████▌    | 9407/16804 [00:00<00:00, 16227.39it/s]Parsing Hierarchy :  66%|██████▌   | 11064/16804 [00:00<00:00, 16338.96it/s]Parsing Hierarchy :  76%|███████▌  | 12735/16804 [00:00<00:00, 16455.59it/s]Parsing Hierarchy :  86%|████████▌ | 14398/16804 [00:00<00:00, 16507.62it/s]Parsing Hierarchy :  96%|█████████▌| 16049/16804 [00:01<00:00, 16475.13it/s]Parsing Hierarchy : 100%|██████████| 16804/16804 [00:01<00:00, 16042.33it/s]
+yt : [INFO     ] 2023-09-20 03:47:04,663 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 04:04:03,523 Parameters: current_time              = 18.018620630039
+yt : [INFO     ] 2023-09-20 04:04:03,592 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 04:04:03,592 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 04:04:03,593 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 04:04:03,593 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 04:04:03,593 Parameters: current_redshift          = 15.649833877046
+yt : [INFO     ] 2023-09-20 04:04:03,593 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 04:04:03,593 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 04:04:03,593 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 04:04:03,593 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.690177792673...
+Parsing Hierarchy :   0%|          | 0/17002 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1116/17002 [00:00<00:01, 11157.19it/s]Parsing Hierarchy :  16%|█▌        | 2729/17002 [00:00<00:01, 14080.54it/s]Parsing Hierarchy :  26%|██▌       | 4446/17002 [00:00<00:00, 15487.62it/s]Parsing Hierarchy :  36%|███▌      | 6097/17002 [00:03<00:08, 1277.67it/s] Parsing Hierarchy :  42%|████▏     | 7122/17002 [00:03<00:05, 1666.77it/s]Parsing Hierarchy :  51%|█████▏    | 8714/17002 [00:03<00:03, 2498.29it/s]Parsing Hierarchy :  61%|██████    | 10336/17002 [00:03<00:01, 3553.93it/s]Parsing Hierarchy :  70%|███████   | 11977/17002 [00:03<00:01, 4826.62it/s]Parsing Hierarchy :  80%|████████  | 13646/17002 [00:03<00:00, 6296.40it/s]Parsing Hierarchy :  90%|█████████ | 15313/17002 [00:03<00:00, 7856.04it/s]Parsing Hierarchy : 100%|█████████▉| 16949/17002 [00:03<00:00, 9359.37it/s]Parsing Hierarchy : 100%|██████████| 17002/17002 [00:04<00:00, 4249.02it/s]
+yt : [INFO     ] 2023-09-20 04:04:08,233 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 04:19:44,066 Parameters: current_time              = 18.083903641743
+yt : [INFO     ] 2023-09-20 04:19:44,076 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 04:19:44,076 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 04:19:44,077 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 04:19:44,077 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 04:19:44,077 Parameters: current_redshift          = 15.609732876749
+yt : [INFO     ] 2023-09-20 04:19:44,077 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 04:19:44,077 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 04:19:44,077 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 04:19:44,077 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.649833877046...
+Parsing Hierarchy :   0%|          | 0/16988 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1170/16988 [00:00<00:01, 11698.06it/s]Parsing Hierarchy :  16%|█▋        | 2780/16988 [00:00<00:00, 14279.94it/s]Parsing Hierarchy :  26%|██▌       | 4438/16988 [00:00<00:00, 15327.38it/s]Parsing Hierarchy :  36%|███▌      | 6095/16988 [00:00<00:00, 15817.15it/s]Parsing Hierarchy :  46%|████▌     | 7812/16988 [00:00<00:00, 16301.98it/s]Parsing Hierarchy :  56%|█████▌    | 9498/16988 [00:00<00:00, 16489.21it/s]Parsing Hierarchy :  66%|██████▌   | 11156/16988 [00:00<00:00, 16517.84it/s]Parsing Hierarchy :  75%|███████▌  | 12817/16988 [00:00<00:00, 16545.75it/s]Parsing Hierarchy :  85%|████████▌ | 14472/16988 [00:00<00:00, 16516.77it/s]Parsing Hierarchy :  95%|█████████▍| 16124/16988 [00:04<00:00, 1459.41it/s] Parsing Hierarchy : 100%|██████████| 16988/16988 [00:04<00:00, 3859.88it/s]
+yt : [INFO     ] 2023-09-20 04:19:49,082 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 04:38:05,942 Parameters: current_time              = 18.149186753942
+yt : [INFO     ] 2023-09-20 04:38:05,956 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 04:38:05,957 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 04:38:05,957 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 04:38:05,957 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 04:38:05,957 Parameters: current_redshift          = 15.569872381443
+yt : [INFO     ] 2023-09-20 04:38:05,957 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 04:38:05,957 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 04:38:05,957 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 04:38:05,958 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.609732876749...
+Parsing Hierarchy :   0%|          | 0/17136 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1161/17136 [00:00<00:01, 11605.42it/s]Parsing Hierarchy :  16%|█▋        | 2804/17136 [00:00<00:00, 14441.94it/s]Parsing Hierarchy :  26%|██▌       | 4484/17136 [00:00<00:00, 15516.56it/s]Parsing Hierarchy :  36%|███▌      | 6163/17136 [00:00<00:00, 16015.64it/s]Parsing Hierarchy :  46%|████▌     | 7821/17136 [00:00<00:00, 16216.00it/s]Parsing Hierarchy :  55%|█████▌    | 9481/17136 [00:00<00:00, 16344.24it/s]Parsing Hierarchy :  65%|██████▌   | 11152/17136 [00:00<00:00, 16463.45it/s]Parsing Hierarchy :  75%|███████▍  | 12824/17136 [00:00<00:00, 16542.74it/s]Parsing Hierarchy :  85%|████████▍ | 14490/17136 [00:00<00:00, 16578.84it/s]Parsing Hierarchy :  94%|█████████▍| 16163/17136 [00:01<00:00, 16617.16it/s]Parsing Hierarchy : 100%|██████████| 17136/17136 [00:01<00:00, 16198.60it/s]
+yt : [INFO     ] 2023-09-20 04:38:07,674 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 05:06:58,968 Parameters: current_time              = 18.214469932119
+yt : [INFO     ] 2023-09-20 05:06:58,989 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 05:06:58,989 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 05:06:58,990 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 05:06:58,990 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 05:06:58,990 Parameters: current_redshift          = 15.530249878533
+yt : [INFO     ] 2023-09-20 05:06:58,990 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 05:06:58,990 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 05:06:58,990 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 05:06:58,990 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.569872381443...
+Parsing Hierarchy :   0%|          | 0/17366 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1160/17366 [00:00<00:01, 11595.75it/s]Parsing Hierarchy :  16%|█▌        | 2804/17366 [00:00<00:01, 14401.59it/s]Parsing Hierarchy :  26%|██▌       | 4479/17366 [00:00<00:00, 15469.34it/s]Parsing Hierarchy :  35%|███▌      | 6097/17366 [00:00<00:00, 15749.57it/s]Parsing Hierarchy :  45%|████▍     | 7746/17366 [00:00<00:00, 16013.87it/s]Parsing Hierarchy :  54%|█████▍    | 9381/17366 [00:00<00:00, 16127.62it/s]Parsing Hierarchy :  64%|██████▎   | 11036/17366 [00:00<00:00, 16240.46it/s]Parsing Hierarchy :  73%|███████▎  | 12693/17366 [00:00<00:00, 16343.27it/s]Parsing Hierarchy :  83%|████████▎ | 14396/17366 [00:00<00:00, 16532.07it/s]Parsing Hierarchy :  93%|█████████▎| 16096/17366 [00:01<00:00, 16674.11it/s]Parsing Hierarchy : 100%|██████████| 17366/17366 [00:01<00:00, 16131.91it/s]
+yt : [INFO     ] 2023-09-20 05:07:00,701 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 05:25:14,461 Parameters: current_time              = 18.279753091903
+yt : [INFO     ] 2023-09-20 05:25:14,474 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 05:25:14,475 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 05:25:14,475 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 05:25:14,475 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 05:25:14,475 Parameters: current_redshift          = 15.490863359982
+yt : [INFO     ] 2023-09-20 05:25:14,475 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 05:25:14,475 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 05:25:14,475 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 05:25:14,475 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.530249878533...
+Parsing Hierarchy :   0%|          | 0/17622 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1177/17622 [00:00<00:01, 11764.79it/s]Parsing Hierarchy :  15%|█▌        | 2723/17622 [00:03<00:18, 789.22it/s]  Parsing Hierarchy :  22%|██▏       | 3791/17622 [00:03<00:11, 1238.38it/s]Parsing Hierarchy :  31%|███       | 5411/17622 [00:03<00:05, 2149.23it/s]Parsing Hierarchy :  40%|████      | 7086/17622 [00:03<00:03, 3317.87it/s]Parsing Hierarchy :  50%|████▉     | 8758/17622 [00:03<00:01, 4693.04it/s]Parsing Hierarchy :  59%|█████▉    | 10407/17622 [00:03<00:01, 6201.14it/s]Parsing Hierarchy :  68%|██████▊   | 12067/17622 [00:03<00:00, 7806.99it/s]Parsing Hierarchy :  78%|███████▊  | 13730/17622 [00:03<00:00, 9401.65it/s]Parsing Hierarchy :  87%|████████▋ | 15377/17622 [00:03<00:00, 10851.57it/s]Parsing Hierarchy :  97%|█████████▋| 17066/17622 [00:03<00:00, 12219.41it/s]Parsing Hierarchy : 100%|██████████| 17622/17622 [00:03<00:00, 4442.32it/s] 
+yt : [INFO     ] 2023-09-20 05:25:19,069 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 06:03:46,104 Parameters: current_time              = 18.345036367811
+yt : [INFO     ] 2023-09-20 06:03:46,121 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 06:03:46,121 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 06:03:46,122 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 06:03:46,122 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 06:03:46,122 Parameters: current_redshift          = 15.451710529119
+yt : [INFO     ] 2023-09-20 06:03:46,122 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 06:03:46,122 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 06:03:46,122 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 06:03:46,122 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.490863359982...
+Parsing Hierarchy :   0%|          | 0/17629 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▋         | 1121/17629 [00:00<00:01, 11208.03it/s]Parsing Hierarchy :  16%|█▌        | 2738/17629 [00:00<00:01, 14124.06it/s]Parsing Hierarchy :  25%|██▌       | 4444/17629 [00:00<00:00, 15462.52it/s]Parsing Hierarchy :  35%|███▍      | 6157/17629 [00:00<00:00, 16119.31it/s]Parsing Hierarchy :  45%|████▍     | 7874/17629 [00:00<00:00, 16495.22it/s]Parsing Hierarchy :  54%|█████▍    | 9524/17629 [00:03<00:06, 1322.04it/s] Parsing Hierarchy :  63%|██████▎   | 11081/17629 [00:04<00:03, 1855.74it/s]Parsing Hierarchy :  72%|███████▏  | 12738/17629 [00:04<00:01, 2603.12it/s]Parsing Hierarchy :  82%|████████▏ | 14409/17629 [00:04<00:00, 3557.49it/s]Parsing Hierarchy :  91%|█████████ | 16045/17629 [00:04<00:00, 4685.51it/s]Parsing Hierarchy : 100%|██████████| 17629/17629 [00:04<00:00, 3942.00it/s]
+yt : [INFO     ] 2023-09-20 06:03:51,249 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 06:20:58,725 Parameters: current_time              = 18.410319529719
+yt : [INFO     ] 2023-09-20 06:20:58,727 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 06:20:58,727 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 06:20:58,728 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 06:20:58,728 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 06:20:58,728 Parameters: current_redshift          = 15.412789312155
+yt : [INFO     ] 2023-09-20 06:20:58,728 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 06:20:58,728 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 06:20:58,728 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 06:20:58,728 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.451710529119...
+Parsing Hierarchy :   0%|          | 0/17754 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1004/17754 [00:00<00:01, 10039.34it/s]Parsing Hierarchy :  15%|█▍        | 2612/17754 [00:00<00:01, 13589.26it/s]Parsing Hierarchy :  24%|██▍       | 4273/17754 [00:00<00:00, 14965.09it/s]Parsing Hierarchy :  33%|███▎      | 5934/17754 [00:00<00:00, 15613.23it/s]Parsing Hierarchy :  43%|████▎     | 7611/17754 [00:00<00:00, 16028.33it/s]Parsing Hierarchy :  52%|█████▏    | 9289/17754 [00:00<00:00, 16279.80it/s]Parsing Hierarchy :  62%|██████▏   | 10967/17754 [00:00<00:00, 16442.79it/s]Parsing Hierarchy :  71%|███████   | 12612/17754 [00:03<00:03, 1647.41it/s] Parsing Hierarchy :  79%|███████▉  | 13990/17754 [00:03<00:01, 2175.93it/s]Parsing Hierarchy :  88%|████████▊ | 15617/17754 [00:03<00:00, 3000.13it/s]Parsing Hierarchy :  97%|█████████▋| 17272/17754 [00:03<00:00, 4046.02it/s]Parsing Hierarchy : 100%|██████████| 17754/17754 [00:03<00:00, 4491.59it/s]
+yt : [INFO     ] 2023-09-20 06:21:03,325 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 06:47:20,748 Parameters: current_time              = 18.47560255254
+yt : [INFO     ] 2023-09-20 06:47:20,761 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 06:47:20,762 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 06:47:20,762 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 06:47:20,762 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 06:47:20,762 Parameters: current_redshift          = 15.37409753957
+yt : [INFO     ] 2023-09-20 06:47:20,762 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 06:47:20,762 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 06:47:20,762 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 06:47:20,762 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.412789312155...
+Parsing Hierarchy :   0%|          | 0/17752 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 968/17752 [00:00<00:01, 9677.49it/s]Parsing Hierarchy :  15%|█▍        | 2622/17752 [00:00<00:01, 13710.49it/s]Parsing Hierarchy :  24%|██▍       | 4273/17752 [00:00<00:00, 14985.47it/s]Parsing Hierarchy :  33%|███▎      | 5925/17752 [00:00<00:00, 15590.13it/s]Parsing Hierarchy :  43%|████▎     | 7573/17752 [00:00<00:00, 15909.88it/s]Parsing Hierarchy :  52%|█████▏    | 9164/17752 [00:00<00:00, 15142.75it/s]Parsing Hierarchy :  61%|██████    | 10857/17752 [00:00<00:00, 15705.18it/s]Parsing Hierarchy :  71%|███████   | 12570/17752 [00:00<00:00, 16148.13it/s]Parsing Hierarchy :  80%|████████  | 14276/17752 [00:00<00:00, 16426.30it/s]Parsing Hierarchy :  90%|█████████ | 15993/17752 [00:01<00:00, 16650.54it/s]Parsing Hierarchy :  99%|█████████▉| 17662/17752 [00:04<00:00, 1702.23it/s] Parsing Hierarchy : 100%|██████████| 17752/17752 [00:04<00:00, 4421.34it/s]
+yt : [INFO     ] 2023-09-20 06:47:25,444 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 07:13:25,198 Parameters: current_time              = 18.540885867098
+yt : [INFO     ] 2023-09-20 07:13:25,200 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 07:13:25,200 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 07:13:25,200 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 07:13:25,201 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 07:13:25,201 Parameters: current_redshift          = 15.335632782088
+yt : [INFO     ] 2023-09-20 07:13:25,201 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 07:13:25,201 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 07:13:25,201 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 07:13:25,201 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.37409753957...
+Parsing Hierarchy :   0%|          | 0/17849 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▍         | 875/17849 [00:00<00:01, 8744.32it/s]Parsing Hierarchy :  14%|█▍        | 2518/17849 [00:00<00:01, 13260.67it/s]Parsing Hierarchy :  23%|██▎       | 4168/17849 [00:00<00:00, 14738.76it/s]Parsing Hierarchy :  33%|███▎      | 5830/17849 [00:00<00:00, 15478.47it/s]Parsing Hierarchy :  42%|████▏     | 7498/17849 [00:00<00:00, 15909.64it/s]Parsing Hierarchy :  51%|█████▏    | 9170/17849 [00:00<00:00, 16184.00it/s]Parsing Hierarchy :  61%|██████    | 10840/17849 [00:00<00:00, 16351.88it/s]Parsing Hierarchy :  70%|███████   | 12520/17849 [00:00<00:00, 16492.12it/s]Parsing Hierarchy :  79%|███████▉  | 14173/17849 [00:00<00:00, 16503.05it/s]Parsing Hierarchy :  89%|████████▉ | 15861/17849 [00:01<00:00, 16617.43it/s]Parsing Hierarchy :  98%|█████████▊| 17563/17849 [00:01<00:00, 16728.86it/s]Parsing Hierarchy : 100%|██████████| 17849/17849 [00:01<00:00, 15977.39it/s]
+yt : [INFO     ] 2023-09-20 07:13:27,006 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 07:31:11,845 Parameters: current_time              = 18.606169003831
+yt : [INFO     ] 2023-09-20 07:31:11,846 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 07:31:11,846 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 07:31:11,847 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 07:31:11,847 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 07:31:11,847 Parameters: current_redshift          = 15.297392969146
+yt : [INFO     ] 2023-09-20 07:31:11,847 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 07:31:11,847 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 07:31:11,847 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 07:31:11,847 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.335632782088...
+Parsing Hierarchy :   0%|          | 0/17894 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1110/17894 [00:00<00:01, 11094.51it/s]Parsing Hierarchy :  15%|█▌        | 2748/17894 [00:00<00:01, 14199.45it/s]Parsing Hierarchy :  23%|██▎       | 4168/17894 [00:00<00:00, 14109.64it/s]Parsing Hierarchy :  32%|███▏      | 5814/17894 [00:00<00:00, 14991.94it/s]Parsing Hierarchy :  42%|████▏     | 7449/17894 [00:00<00:00, 15478.58it/s]Parsing Hierarchy :  51%|█████     | 9088/17894 [00:00<00:00, 15786.68it/s]Parsing Hierarchy :  60%|█████▉    | 10702/17894 [00:00<00:00, 15899.55it/s]Parsing Hierarchy :  69%|██████▉   | 12360/17894 [00:00<00:00, 16113.60it/s]Parsing Hierarchy :  78%|███████▊  | 14023/17894 [00:00<00:00, 16273.39it/s]Parsing Hierarchy :  88%|████████▊ | 15684/17894 [00:01<00:00, 16375.29it/s]Parsing Hierarchy :  97%|█████████▋| 17336/17894 [00:01<00:00, 16415.49it/s]Parsing Hierarchy : 100%|██████████| 17894/17894 [00:01<00:00, 15742.34it/s]
+yt : [INFO     ] 2023-09-20 07:31:13,630 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 08:09:22,241 Parameters: current_time              = 18.671452006861
+yt : [INFO     ] 2023-09-20 08:09:22,259 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 08:09:22,259 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 08:09:22,260 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 08:09:22,260 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 08:09:22,260 Parameters: current_redshift          = 15.259376215942
+yt : [INFO     ] 2023-09-20 08:09:22,260 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 08:09:22,260 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 08:09:22,260 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 08:09:22,260 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.297392969146...
+Parsing Hierarchy :   0%|          | 0/18089 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1030/18089 [00:00<00:01, 10296.70it/s]Parsing Hierarchy :  13%|█▎        | 2359/18089 [00:03<00:23, 656.12it/s]  Parsing Hierarchy :  18%|█▊        | 3317/18089 [00:03<00:14, 1046.29it/s]Parsing Hierarchy :  27%|██▋       | 4957/18089 [00:03<00:06, 1948.87it/s]Parsing Hierarchy :  37%|███▋      | 6615/18089 [00:03<00:03, 3082.37it/s]Parsing Hierarchy :  46%|████▌     | 8268/18089 [00:03<00:02, 4422.29it/s]Parsing Hierarchy :  55%|█████▍    | 9909/18089 [00:03<00:01, 5915.83it/s]Parsing Hierarchy :  64%|██████▍   | 11578/18089 [00:03<00:00, 7543.67it/s]Parsing Hierarchy :  73%|███████▎  | 13216/18089 [00:03<00:00, 9111.94it/s]Parsing Hierarchy :  82%|████████▏ | 14851/18089 [00:03<00:00, 10575.93it/s]Parsing Hierarchy :  91%|█████████▏| 16512/18089 [00:04<00:00, 11927.77it/s]Parsing Hierarchy : 100%|██████████| 18089/18089 [00:04<00:00, 4359.36it/s] 
+yt : [INFO     ] 2023-09-20 08:09:27,100 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 08:39:03,866 Parameters: current_time              = 18.73673515374
+yt : [INFO     ] 2023-09-20 08:39:03,868 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 08:39:03,868 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 08:39:03,868 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 08:39:03,869 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 08:39:03,869 Parameters: current_redshift          = 15.221580287819
+yt : [INFO     ] 2023-09-20 08:39:03,869 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 08:39:03,869 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 08:39:03,869 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 08:39:03,869 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.259376215942...
+Parsing Hierarchy :   0%|          | 0/17240 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1166/17240 [00:00<00:01, 11657.40it/s]Parsing Hierarchy :  16%|█▌        | 2770/17240 [00:00<00:01, 14232.86it/s]Parsing Hierarchy :  26%|██▌       | 4463/17240 [00:00<00:00, 15461.77it/s]Parsing Hierarchy :  36%|███▌      | 6183/17240 [00:00<00:00, 16146.49it/s]Parsing Hierarchy :  46%|████▌     | 7923/17240 [00:00<00:00, 16598.14it/s]Parsing Hierarchy :  56%|█████▌    | 9583/17240 [00:04<00:05, 1289.77it/s] Parsing Hierarchy :  65%|██████▌   | 11220/17240 [00:04<00:03, 1838.13it/s]Parsing Hierarchy :  75%|███████▍  | 12882/17240 [00:04<00:01, 2568.09it/s]Parsing Hierarchy :  84%|████████▍ | 14524/17240 [00:04<00:00, 3480.79it/s]Parsing Hierarchy :  94%|█████████▍| 16185/17240 [00:04<00:00, 4610.25it/s]Parsing Hierarchy : 100%|██████████| 17240/17240 [00:04<00:00, 3784.32it/s]
+yt : [INFO     ] 2023-09-20 08:39:09,054 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 09:08:02,892 Parameters: current_time              = 18.802018506104
+yt : [INFO     ] 2023-09-20 09:08:02,893 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 09:08:02,894 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 09:08:02,894 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 09:08:02,894 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 09:08:02,894 Parameters: current_redshift          = 15.184003104179
+yt : [INFO     ] 2023-09-20 09:08:02,894 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 09:08:02,894 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 09:08:02,894 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 09:08:02,895 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.221580287819...
+Parsing Hierarchy :   0%|          | 0/17439 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1015/17439 [00:00<00:01, 10063.25it/s]Parsing Hierarchy :  15%|█▌        | 2627/17439 [00:00<00:01, 13613.20it/s]Parsing Hierarchy :  25%|██▍       | 4278/17439 [00:00<00:00, 14930.53it/s]Parsing Hierarchy :  34%|███▍      | 5918/17439 [00:00<00:00, 15509.25it/s]Parsing Hierarchy :  43%|████▎     | 7567/17439 [00:00<00:00, 15842.40it/s]Parsing Hierarchy :  53%|█████▎    | 9228/17439 [00:00<00:00, 16101.59it/s]Parsing Hierarchy :  62%|██████▏   | 10889/17439 [00:00<00:00, 16266.75it/s]Parsing Hierarchy :  72%|███████▏  | 12576/17439 [00:00<00:00, 16455.91it/s]Parsing Hierarchy :  82%|████████▏ | 14222/17439 [00:03<00:01, 1616.36it/s] Parsing Hierarchy :  91%|█████████ | 15815/17439 [00:03<00:00, 2217.42it/s]Parsing Hierarchy : 100%|█████████▉| 17433/17439 [00:04<00:00, 3007.62it/s]Parsing Hierarchy : 100%|██████████| 17439/17439 [00:04<00:00, 4315.59it/s]
+yt : [INFO     ] 2023-09-20 09:08:07,588 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 09:45:07,504 Parameters: current_time              = 18.86730155375
+yt : [INFO     ] 2023-09-20 09:45:07,506 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 09:45:07,506 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 09:45:07,506 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 09:45:07,507 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 09:45:07,507 Parameters: current_redshift          = 15.146642937505
+yt : [INFO     ] 2023-09-20 09:45:07,507 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 09:45:07,507 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 09:45:07,507 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 09:45:07,507 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.184003104179...
+Parsing Hierarchy :   0%|          | 0/17494 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1149/17494 [00:00<00:01, 11487.77it/s]Parsing Hierarchy :  16%|█▌        | 2810/17494 [00:00<00:01, 14495.96it/s]Parsing Hierarchy :  26%|██▌       | 4466/17494 [00:00<00:00, 15437.54it/s]Parsing Hierarchy :  35%|███▌      | 6127/17494 [00:00<00:00, 15896.98it/s]Parsing Hierarchy :  44%|████▍     | 7782/17494 [00:00<00:00, 16128.79it/s]Parsing Hierarchy :  54%|█████▍    | 9451/17494 [00:00<00:00, 16317.29it/s]Parsing Hierarchy :  64%|██████▎   | 11129/17494 [00:00<00:00, 16466.53it/s]Parsing Hierarchy :  73%|███████▎  | 12835/17494 [00:00<00:00, 16654.32it/s]Parsing Hierarchy :  83%|████████▎ | 14553/17494 [00:00<00:00, 16817.57it/s]Parsing Hierarchy :  93%|█████████▎| 16261/17494 [00:01<00:00, 16898.42it/s]Parsing Hierarchy : 100%|██████████| 17494/17494 [00:01<00:00, 16306.06it/s]
+yt : [INFO     ] 2023-09-20 09:45:12,144 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 10:11:01,128 Parameters: current_time              = 18.932584683499
+yt : [INFO     ] 2023-09-20 10:11:01,129 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 10:11:01,130 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 10:11:01,130 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 10:11:01,130 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 10:11:01,130 Parameters: current_redshift          = 15.1094975372
+yt : [INFO     ] 2023-09-20 10:11:01,131 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 10:11:01,131 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 10:11:01,131 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 10:11:01,131 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.146642937505...
+Parsing Hierarchy :   0%|          | 0/17715 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▋         | 1136/17715 [00:00<00:01, 11352.30it/s]Parsing Hierarchy :  16%|█▌        | 2790/17715 [00:00<00:01, 14399.11it/s]Parsing Hierarchy :  25%|██▌       | 4438/17715 [00:00<00:00, 15347.85it/s]Parsing Hierarchy :  34%|███▍      | 6093/17715 [00:00<00:00, 15822.12it/s]Parsing Hierarchy :  44%|████▎     | 7745/17715 [00:00<00:00, 16073.58it/s]Parsing Hierarchy :  53%|█████▎    | 9388/17715 [00:00<00:00, 16193.46it/s]Parsing Hierarchy :  62%|██████▏   | 11036/17715 [00:00<00:00, 16284.59it/s]Parsing Hierarchy :  71%|███████▏  | 12665/17715 [00:00<00:00, 16240.20it/s]Parsing Hierarchy :  81%|████████  | 14326/17715 [00:00<00:00, 16355.34it/s]Parsing Hierarchy :  90%|█████████ | 15977/17715 [00:01<00:00, 16401.47it/s]Parsing Hierarchy : 100%|█████████▉| 17648/17715 [00:01<00:00, 16494.63it/s]Parsing Hierarchy : 100%|██████████| 17715/17715 [00:01<00:00, 16021.65it/s]
+yt : [INFO     ] 2023-09-20 10:11:02,889 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 10:41:12,182 Parameters: current_time              = 18.997867767787
+yt : [INFO     ] 2023-09-20 10:41:12,183 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 10:41:12,183 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 10:41:12,183 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 10:41:12,184 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 10:41:12,184 Parameters: current_redshift          = 15.072564810087
+yt : [INFO     ] 2023-09-20 10:41:12,184 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 10:41:12,184 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 10:41:12,195 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 10:41:12,195 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.1094975372...
+Parsing Hierarchy :   0%|          | 0/17759 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1161/17759 [00:00<00:01, 11606.97it/s]Parsing Hierarchy :  16%|█▌        | 2803/17759 [00:00<00:01, 14437.52it/s]Parsing Hierarchy :  25%|██▌       | 4443/17759 [00:00<00:00, 15331.59it/s]Parsing Hierarchy :  34%|███▍      | 6051/17759 [00:00<00:00, 15624.35it/s]Parsing Hierarchy :  43%|████▎     | 7676/17759 [00:00<00:00, 15840.04it/s]Parsing Hierarchy :  52%|█████▏    | 9307/17759 [00:00<00:00, 15998.11it/s]Parsing Hierarchy :  62%|██████▏   | 10939/17759 [00:00<00:00, 16102.16it/s]Parsing Hierarchy :  71%|███████   | 12563/17759 [00:00<00:00, 16144.29it/s]Parsing Hierarchy :  80%|████████  | 14228/17759 [00:00<00:00, 16271.93it/s]Parsing Hierarchy :  89%|████████▉ | 15894/17759 [00:01<00:00, 16389.99it/s]Parsing Hierarchy :  99%|█████████▊| 17533/17759 [00:01<00:00, 16283.24it/s]Parsing Hierarchy : 100%|██████████| 17759/17759 [00:01<00:00, 15894.68it/s]
+yt : [INFO     ] 2023-09-20 10:41:13,954 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 11:11:15,745 Parameters: current_time              = 19.063150941366
+yt : [INFO     ] 2023-09-20 11:11:15,746 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 11:11:15,747 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 11:11:15,747 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 11:11:15,747 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 11:11:15,747 Parameters: current_redshift          = 15.035842965976
+yt : [INFO     ] 2023-09-20 11:11:15,747 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 11:11:15,747 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 11:11:15,747 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 11:11:15,747 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.072564810087...
+Parsing Hierarchy :   0%|          | 0/17825 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1103/17825 [00:00<00:01, 11024.41it/s]Parsing Hierarchy :  13%|█▎        | 2387/17825 [00:03<00:23, 652.92it/s]  Parsing Hierarchy :  19%|█▉        | 3349/17825 [00:03<00:13, 1042.05it/s]Parsing Hierarchy :  28%|██▊       | 4981/17825 [00:03<00:06, 1933.86it/s]Parsing Hierarchy :  37%|███▋      | 6606/17825 [00:03<00:03, 3035.78it/s]Parsing Hierarchy :  46%|████▌     | 8225/17825 [00:03<00:02, 4338.75it/s]Parsing Hierarchy :  55%|█████▌    | 9856/17825 [00:03<00:01, 5822.76it/s]Parsing Hierarchy :  65%|██████▍   | 11508/17825 [00:03<00:00, 7431.84it/s]Parsing Hierarchy :  74%|███████▍  | 13172/17825 [00:03<00:00, 9060.69it/s]Parsing Hierarchy :  83%|████████▎ | 14857/17825 [00:03<00:00, 10631.11it/s]Parsing Hierarchy :  93%|█████████▎| 16532/17825 [00:04<00:00, 11998.69it/s]Parsing Hierarchy : 100%|██████████| 17825/17825 [00:04<00:00, 4288.26it/s] 
+yt : [INFO     ] 2023-09-20 11:11:20,537 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 11:38:45,023 Parameters: current_time              = 19.128434088052
+yt : [INFO     ] 2023-09-20 11:38:45,024 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 11:38:45,024 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 11:38:45,025 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 11:38:45,025 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 11:38:45,025 Parameters: current_redshift          = 14.999330149633
+yt : [INFO     ] 2023-09-20 11:38:45,042 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 11:38:45,042 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 11:38:45,042 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 11:38:45,042 Parameters: hubble_constant           = 0.6711
+Finished snapshot 15.035842965976...
+Parsing Hierarchy :   0%|          | 0/18093 [00:00<?, ?it/s]Parsing Hierarchy :   7%|▋         | 1180/18093 [00:00<00:01, 11797.56it/s]Parsing Hierarchy :  16%|█▌        | 2812/18093 [00:00<00:01, 14453.67it/s]Parsing Hierarchy :  25%|██▍       | 4500/18093 [00:00<00:00, 15561.29it/s]Parsing Hierarchy :  34%|███▍      | 6214/18093 [00:00<00:00, 16181.14it/s]Parsing Hierarchy :  44%|████▍     | 7958/18093 [00:00<00:00, 16633.86it/s]Parsing Hierarchy :  53%|█████▎    | 9622/18093 [00:04<00:06, 1257.48it/s] Parsing Hierarchy :  62%|██████▏   | 11263/18093 [00:04<00:03, 1793.64it/s]Parsing Hierarchy :  71%|███████▏  | 12893/18093 [00:04<00:02, 2491.90it/s]Parsing Hierarchy :  80%|████████  | 14522/18093 [00:04<00:01, 3379.68it/s]Parsing Hierarchy :  89%|████████▉ | 16147/18093 [00:04<00:00, 4463.00it/s]Parsing Hierarchy :  98%|█████████▊| 17791/18093 [00:04<00:00, 5748.64it/s]Parsing Hierarchy : 100%|██████████| 18093/18093 [00:04<00:00, 3835.59it/s]
+yt : [INFO     ] 2023-09-20 11:38:50,443 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 11:58:58,342 Parameters: current_time              = 19.193717328686
+yt : [INFO     ] 2023-09-20 11:58:58,343 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 11:58:58,343 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 11:58:58,343 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 11:58:58,344 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 11:58:58,344 Parameters: current_redshift          = 14.963024396869
+yt : [INFO     ] 2023-09-20 11:58:58,344 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 11:58:58,344 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 11:58:58,344 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 11:58:58,344 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.999330149633...
+Parsing Hierarchy :   0%|          | 0/20496 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 1085/20496 [00:00<00:01, 10842.69it/s]Parsing Hierarchy :  13%|█▎        | 2665/20496 [00:00<00:01, 13757.47it/s]Parsing Hierarchy :  21%|██        | 4313/20496 [00:00<00:01, 14997.89it/s]Parsing Hierarchy :  29%|██▉       | 5968/20496 [00:00<00:00, 15607.75it/s]Parsing Hierarchy :  37%|███▋      | 7591/20496 [00:00<00:00, 15829.86it/s]Parsing Hierarchy :  45%|████▌     | 9265/20496 [00:00<00:00, 16136.58it/s]Parsing Hierarchy :  53%|█████▎    | 10960/20496 [00:00<00:00, 16401.74it/s]Parsing Hierarchy :  61%|██████▏   | 12601/20496 [00:03<00:05, 1567.59it/s] Parsing Hierarchy :  69%|██████▉   | 14221/20496 [00:03<00:02, 2176.87it/s]Parsing Hierarchy :  77%|███████▋  | 15841/20496 [00:03<00:01, 2964.16it/s]Parsing Hierarchy :  85%|████████▌ | 17445/20496 [00:04<00:00, 3935.01it/s]Parsing Hierarchy :  93%|█████████▎| 19098/20496 [00:04<00:00, 5142.87it/s]Parsing Hierarchy : 100%|██████████| 20496/20496 [00:04<00:00, 4813.21it/s]
+yt : [INFO     ] 2023-09-20 11:59:03,304 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 12:26:30,141 Parameters: current_time              = 19.25900030609
+yt : [INFO     ] 2023-09-20 12:26:30,142 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 12:26:30,142 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 12:26:30,156 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 12:26:30,156 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 12:26:30,156 Parameters: current_redshift          = 14.926924032193
+yt : [INFO     ] 2023-09-20 12:26:30,156 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 12:26:30,156 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 12:26:30,156 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 12:26:30,156 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.963024396869...
+Parsing Hierarchy :   0%|          | 0/20627 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 1114/20627 [00:00<00:01, 11136.80it/s]Parsing Hierarchy :  13%|█▎        | 2768/20627 [00:00<00:01, 14312.38it/s]Parsing Hierarchy :  21%|██▏       | 4423/20627 [00:00<00:01, 15332.50it/s]Parsing Hierarchy :  30%|██▉       | 6097/20627 [00:00<00:00, 15843.15it/s]Parsing Hierarchy :  38%|███▊      | 7777/20627 [00:00<00:00, 16172.96it/s]Parsing Hierarchy :  46%|████▌     | 9457/20627 [00:00<00:00, 16361.76it/s]Parsing Hierarchy :  54%|█████▍    | 11169/20627 [00:00<00:00, 16606.66it/s]Parsing Hierarchy :  62%|██████▏   | 12891/20627 [00:00<00:00, 16799.92it/s]Parsing Hierarchy :  71%|███████   | 14572/20627 [00:03<00:03, 1609.83it/s] Parsing Hierarchy :  78%|███████▊  | 16172/20627 [00:04<00:02, 2199.57it/s]Parsing Hierarchy :  86%|████████▌ | 17770/20627 [00:04<00:00, 2961.73it/s]Parsing Hierarchy :  94%|█████████▍| 19425/20627 [00:04<00:00, 3956.75it/s]Parsing Hierarchy : 100%|██████████| 20627/20627 [00:04<00:00, 4802.00it/s]
+yt : [INFO     ] 2023-09-20 12:26:35,198 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 12:52:09,479 Parameters: current_time              = 19.324283482375
+yt : [INFO     ] 2023-09-20 12:52:09,480 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 12:52:09,481 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 12:52:09,481 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 12:52:09,481 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 12:52:09,481 Parameters: current_redshift          = 14.891026936316
+yt : [INFO     ] 2023-09-20 12:52:09,481 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 12:52:09,481 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 12:52:09,481 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 12:52:09,481 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.926924032193...
+Parsing Hierarchy :   0%|          | 0/20611 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▍         | 990/20611 [00:00<00:01, 9895.50it/s]Parsing Hierarchy :  13%|█▎        | 2607/20611 [00:00<00:01, 13581.36it/s]Parsing Hierarchy :  21%|██        | 4285/20611 [00:00<00:01, 15040.29it/s]Parsing Hierarchy :  29%|██▉       | 5929/20611 [00:00<00:00, 15587.40it/s]Parsing Hierarchy :  37%|███▋      | 7581/20611 [00:00<00:00, 15894.60it/s]Parsing Hierarchy :  45%|████▍     | 9236/20611 [00:00<00:00, 16115.11it/s]Parsing Hierarchy :  53%|█████▎    | 10937/20611 [00:00<00:00, 16405.71it/s]Parsing Hierarchy :  61%|██████▏   | 12658/20611 [00:00<00:00, 16660.52it/s]Parsing Hierarchy :  70%|██████▉   | 14388/20611 [00:00<00:00, 16859.23it/s]Parsing Hierarchy :  78%|███████▊  | 16074/20611 [00:04<00:02, 1581.69it/s] Parsing Hierarchy :  86%|████████▌ | 17699/20611 [00:04<00:01, 2164.23it/s]Parsing Hierarchy :  94%|█████████▍| 19330/20611 [00:04<00:00, 2923.70it/s]Parsing Hierarchy : 100%|██████████| 20611/20611 [00:04<00:00, 4675.40it/s]
+yt : [INFO     ] 2023-09-20 12:52:14,608 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 13:14:29,891 Parameters: current_time              = 19.389566652171
+yt : [INFO     ] 2023-09-20 13:14:29,892 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 13:14:29,892 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 13:14:29,893 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 13:14:29,893 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 13:14:29,893 Parameters: current_redshift          = 14.855331158543
+yt : [INFO     ] 2023-09-20 13:14:29,893 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 13:14:29,893 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 13:14:29,893 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 13:14:29,893 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.891026936316...
+Parsing Hierarchy :   0%|          | 0/20816 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1167/20816 [00:00<00:01, 11664.75it/s]Parsing Hierarchy :  14%|█▎        | 2835/20816 [00:00<00:01, 14581.32it/s]Parsing Hierarchy :  22%|██▏       | 4503/20816 [00:00<00:01, 15536.50it/s]Parsing Hierarchy :  30%|██▉       | 6152/20816 [00:00<00:00, 15911.96it/s]Parsing Hierarchy :  37%|███▋      | 7789/20816 [00:00<00:00, 16074.43it/s]Parsing Hierarchy :  45%|████▌     | 9411/20816 [00:00<00:00, 16122.74it/s]Parsing Hierarchy :  53%|█████▎    | 11067/20816 [00:00<00:00, 16240.63it/s]Parsing Hierarchy :  61%|██████▏   | 12762/20816 [00:00<00:00, 16465.21it/s]Parsing Hierarchy :  69%|██████▉   | 14462/20816 [00:00<00:00, 16629.66it/s]Parsing Hierarchy :  78%|███████▊  | 16206/20816 [00:01<00:00, 16878.18it/s]Parsing Hierarchy :  86%|████████▌ | 17894/20816 [00:04<00:01, 1585.85it/s] Parsing Hierarchy :  94%|█████████▎| 19508/20816 [00:04<00:00, 2159.78it/s]Parsing Hierarchy : 100%|██████████| 20816/20816 [00:04<00:00, 4696.08it/s]
+yt : [INFO     ] 2023-09-20 13:14:35,045 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 13:39:23,902 Parameters: current_time              = 19.454849817135
+yt : [INFO     ] 2023-09-20 13:39:23,921 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 13:39:23,921 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 13:39:23,921 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 13:39:23,922 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 13:39:23,922 Parameters: current_redshift          = 14.819835145825
+yt : [INFO     ] 2023-09-20 13:39:23,922 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 13:39:23,922 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 13:39:23,922 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 13:39:23,922 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.855331158543...
+Parsing Hierarchy :   0%|          | 0/20808 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 1055/20808 [00:00<00:01, 10549.26it/s]Parsing Hierarchy :  13%|█▎        | 2712/20808 [00:00<00:01, 14086.57it/s]Parsing Hierarchy :  21%|██        | 4359/20808 [00:00<00:01, 15170.54it/s]Parsing Hierarchy :  29%|██▉       | 6039/20808 [00:00<00:00, 15812.56it/s]Parsing Hierarchy :  37%|███▋      | 7721/20808 [00:00<00:00, 16175.32it/s]Parsing Hierarchy :  45%|████▌     | 9397/20808 [00:00<00:00, 16371.34it/s]Parsing Hierarchy :  53%|█████▎    | 11067/20808 [00:00<00:00, 16476.79it/s]Parsing Hierarchy :  61%|██████    | 12744/20808 [00:00<00:00, 16569.78it/s]Parsing Hierarchy :  69%|██████▉   | 14411/20808 [00:00<00:00, 16600.84it/s]Parsing Hierarchy :  77%|███████▋  | 16078/20808 [00:01<00:00, 16620.88it/s]Parsing Hierarchy :  86%|████████▌ | 17793/20808 [00:01<00:00, 16782.03it/s]Parsing Hierarchy :  94%|█████████▍| 19537/20808 [00:01<00:00, 16964.88it/s]Parsing Hierarchy : 100%|██████████| 20808/20808 [00:04<00:00, 4705.82it/s] 
+yt : [INFO     ] 2023-09-20 13:39:29,082 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 14:03:09,244 Parameters: current_time              = 19.520132907709
+yt : [INFO     ] 2023-09-20 14:03:09,245 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 14:03:09,246 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 14:03:09,246 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 14:03:09,246 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 14:03:09,246 Parameters: current_redshift          = 14.784537152983
+yt : [INFO     ] 2023-09-20 14:03:09,247 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 14:03:09,247 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 14:03:09,247 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 14:03:09,247 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.819835145825...
+Parsing Hierarchy :   0%|          | 0/21049 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 1075/21049 [00:00<00:01, 10746.94it/s]Parsing Hierarchy :  13%|█▎        | 2723/21049 [00:00<00:01, 14114.54it/s]Parsing Hierarchy :  21%|██        | 4392/21049 [00:00<00:01, 15288.79it/s]Parsing Hierarchy :  29%|██▊       | 6050/21049 [00:00<00:00, 15797.20it/s]Parsing Hierarchy :  37%|███▋      | 7709/21049 [00:00<00:00, 16081.98it/s]Parsing Hierarchy :  45%|████▍     | 9389/21049 [00:00<00:00, 16325.83it/s]Parsing Hierarchy :  53%|█████▎    | 11061/21049 [00:00<00:00, 16452.29it/s]Parsing Hierarchy :  60%|██████    | 12732/21049 [00:00<00:00, 16534.17it/s]Parsing Hierarchy :  69%|██████▊   | 14421/21049 [00:00<00:00, 16643.71it/s]Parsing Hierarchy :  76%|███████▋  | 16089/21049 [00:01<00:00, 16653.46it/s]Parsing Hierarchy :  84%|████████▍ | 17759/21049 [00:01<00:00, 16667.00it/s]Parsing Hierarchy :  92%|█████████▏| 19459/21049 [00:01<00:00, 16765.74it/s]Parsing Hierarchy : 100%|██████████| 21049/21049 [00:01<00:00, 16264.96it/s]
+yt : [INFO     ] 2023-09-20 14:03:11,261 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 14:26:49,030 Parameters: current_time              = 19.585416230183
+yt : [INFO     ] 2023-09-20 14:26:49,031 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 14:26:49,032 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 14:26:49,032 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 14:26:49,032 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 14:26:49,032 Parameters: current_redshift          = 14.749435254282
+yt : [INFO     ] 2023-09-20 14:26:49,032 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 14:26:49,033 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 14:26:49,033 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 14:26:49,033 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.784537152983...
+Parsing Hierarchy :   0%|          | 0/21200 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 1104/21200 [00:00<00:01, 11039.62it/s]Parsing Hierarchy :  13%|█▎        | 2765/21200 [00:00<00:01, 14314.05it/s]Parsing Hierarchy :  21%|██        | 4394/21200 [00:00<00:01, 15214.43it/s]Parsing Hierarchy :  28%|██▊       | 5986/21200 [00:00<00:00, 15491.46it/s]Parsing Hierarchy :  36%|███▌      | 7628/21200 [00:00<00:00, 15825.66it/s]Parsing Hierarchy :  43%|████▎     | 9211/21200 [00:00<00:00, 15380.68it/s]Parsing Hierarchy :  51%|█████▏    | 10884/21200 [00:00<00:00, 15810.83it/s]Parsing Hierarchy :  59%|█████▉    | 12550/21200 [00:00<00:00, 16077.48it/s]Parsing Hierarchy :  67%|██████▋   | 14211/21200 [00:00<00:00, 16242.03it/s]Parsing Hierarchy :  75%|███████▍  | 15875/21200 [00:01<00:00, 16361.74it/s]Parsing Hierarchy :  83%|████████▎ | 17532/21200 [00:01<00:00, 16423.93it/s]Parsing Hierarchy :  91%|█████████ | 19187/21200 [00:01<00:00, 16429.75it/s]Parsing Hierarchy :  98%|█████████▊| 20854/21200 [00:01<00:00, 16499.79it/s]Parsing Hierarchy : 100%|██████████| 21200/21200 [00:01<00:00, 15943.49it/s]
+yt : [INFO     ] 2023-09-20 14:26:51,079 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 14:49:34,796 Parameters: current_time              = 19.650699231904
+yt : [INFO     ] 2023-09-20 14:49:34,797 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 14:49:34,797 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 14:49:34,798 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 14:49:34,798 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 14:49:34,798 Parameters: current_redshift          = 14.714528007103
+yt : [INFO     ] 2023-09-20 14:49:34,798 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 14:49:34,798 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 14:49:34,798 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 14:49:34,798 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.749435254282...
+Parsing Hierarchy :   0%|          | 0/20102 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 797/20102 [00:00<00:02, 7969.76it/s]Parsing Hierarchy :  12%|█▏        | 2440/20102 [00:00<00:01, 12943.05it/s]Parsing Hierarchy :  20%|██        | 4071/20102 [00:00<00:01, 14477.21it/s]Parsing Hierarchy :  28%|██▊       | 5706/20102 [00:00<00:00, 15216.17it/s]Parsing Hierarchy :  37%|███▋      | 7339/20102 [00:00<00:00, 15614.87it/s]Parsing Hierarchy :  45%|████▍     | 8992/20102 [00:00<00:00, 15924.95it/s]Parsing Hierarchy :  53%|█████▎    | 10661/20102 [00:00<00:00, 16172.28it/s]Parsing Hierarchy :  61%|██████▏   | 12331/20102 [00:00<00:00, 16338.87it/s]Parsing Hierarchy :  69%|██████▉   | 13965/20102 [00:00<00:00, 16289.78it/s]Parsing Hierarchy :  78%|███████▊  | 15607/20102 [00:01<00:00, 16329.23it/s]Parsing Hierarchy :  86%|████████▌ | 17260/20102 [00:01<00:00, 16390.55it/s]Parsing Hierarchy :  94%|█████████▍| 18901/20102 [00:01<00:00, 16395.24it/s]Parsing Hierarchy : 100%|██████████| 20102/20102 [00:01<00:00, 15812.92it/s]
+yt : [INFO     ] 2023-09-20 14:49:36,763 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 15:13:25,808 Parameters: current_time              = 19.715982628651
+yt : [INFO     ] 2023-09-20 15:13:25,809 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 15:13:25,809 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 15:13:25,810 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 15:13:25,810 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 15:13:25,810 Parameters: current_redshift          = 14.679813310791
+yt : [INFO     ] 2023-09-20 15:13:25,810 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 15:13:25,810 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 15:13:25,810 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 15:13:25,810 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.714528007103...
+Parsing Hierarchy :   0%|          | 0/20207 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 1019/20207 [00:00<00:01, 10185.30it/s]Parsing Hierarchy :  10%|█         | 2038/20207 [00:03<00:36, 503.46it/s]  Parsing Hierarchy :  18%|█▊        | 3602/20207 [00:03<00:15, 1106.84it/s]Parsing Hierarchy :  26%|██▌       | 5224/20207 [00:03<00:07, 1921.10it/s]Parsing Hierarchy :  34%|███▍      | 6840/20207 [00:03<00:04, 2938.64it/s]Parsing Hierarchy :  42%|████▏     | 8479/20207 [00:03<00:02, 4184.72it/s]Parsing Hierarchy :  50%|█████     | 10133/20207 [00:03<00:01, 5628.53it/s]Parsing Hierarchy :  58%|█████▊    | 11813/20207 [00:04<00:01, 7226.43it/s]Parsing Hierarchy :  67%|██████▋   | 13495/20207 [00:04<00:00, 8853.59it/s]Parsing Hierarchy :  75%|███████▌  | 15157/20207 [00:04<00:00, 10368.47it/s]Parsing Hierarchy :  83%|████████▎ | 16830/20207 [00:04<00:00, 11753.60it/s]Parsing Hierarchy :  91%|█████████▏| 18468/20207 [00:04<00:00, 12849.70it/s]Parsing Hierarchy : 100%|█████████▉| 20126/20207 [00:04<00:00, 13793.77it/s]Parsing Hierarchy : 100%|██████████| 20207/20207 [00:04<00:00, 4415.23it/s] 
+yt : [INFO     ] 2023-09-20 15:13:31,128 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 15:37:01,560 Parameters: current_time              = 19.781265551063
+yt : [INFO     ] 2023-09-20 15:37:01,561 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 15:37:01,561 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 15:37:01,561 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 15:37:01,562 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 15:37:01,562 Parameters: current_redshift          = 14.645289704234
+yt : [INFO     ] 2023-09-20 15:37:01,562 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 15:37:01,562 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 15:37:01,562 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 15:37:01,562 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.679813310791...
+Parsing Hierarchy :   0%|          | 0/20277 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 1088/20277 [00:00<00:01, 10876.02it/s]Parsing Hierarchy :  13%|█▎        | 2668/20277 [00:00<00:01, 13767.72it/s]Parsing Hierarchy :  21%|██        | 4271/20277 [00:00<00:01, 14799.17it/s]Parsing Hierarchy :  29%|██▉       | 5921/20277 [00:00<00:00, 15467.67it/s]Parsing Hierarchy :  37%|███▋      | 7468/20277 [00:04<00:12, 1046.35it/s] Parsing Hierarchy :  45%|████▍     | 9086/20277 [00:04<00:07, 1555.82it/s]Parsing Hierarchy :  53%|█████▎    | 10709/20277 [00:04<00:04, 2229.13it/s]Parsing Hierarchy :  61%|██████    | 12338/20277 [00:04<00:02, 3094.03it/s]Parsing Hierarchy :  69%|██████▉   | 13978/20277 [00:04<00:01, 4168.85it/s]Parsing Hierarchy :  77%|███████▋  | 15613/20277 [00:04<00:00, 5428.99it/s]Parsing Hierarchy :  85%|████████▌ | 17254/20277 [00:04<00:00, 6842.76it/s]Parsing Hierarchy :  93%|█████████▎| 18879/20277 [00:05<00:00, 8302.81it/s]Parsing Hierarchy : 100%|██████████| 20277/20277 [00:05<00:00, 3968.60it/s]
+yt : [INFO     ] 2023-09-20 15:37:07,393 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 16:02:18,959 Parameters: current_time              = 19.846548964108
+yt : [INFO     ] 2023-09-20 16:02:18,960 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 16:02:18,961 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 16:02:18,961 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 16:02:18,961 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 16:02:18,974 Parameters: current_redshift          = 14.610955187301
+yt : [INFO     ] 2023-09-20 16:02:18,974 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 16:02:18,974 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 16:02:18,974 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 16:02:18,974 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.645289704234...
+Parsing Hierarchy :   0%|          | 0/20417 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1143/20417 [00:00<00:01, 11429.08it/s]Parsing Hierarchy :  13%|█▎        | 2741/20417 [00:00<00:01, 14102.81it/s]Parsing Hierarchy :  21%|██▏       | 4370/20417 [00:00<00:01, 15098.98it/s]Parsing Hierarchy :  30%|██▉       | 6028/20417 [00:00<00:00, 15682.09it/s]Parsing Hierarchy :  38%|███▊      | 7693/20417 [00:00<00:00, 16027.71it/s]Parsing Hierarchy :  46%|████▌     | 9296/20417 [00:03<00:08, 1382.25it/s] Parsing Hierarchy :  53%|█████▎    | 10888/20417 [00:03<00:04, 1966.54it/s]Parsing Hierarchy :  61%|██████▏   | 12517/20417 [00:03<00:02, 2744.31it/s]Parsing Hierarchy :  69%|██████▉   | 14140/20417 [00:04<00:01, 3715.05it/s]Parsing Hierarchy :  77%|███████▋  | 15772/20417 [00:04<00:00, 4890.24it/s]Parsing Hierarchy :  85%|████████▌ | 17423/20417 [00:04<00:00, 6255.63it/s]Parsing Hierarchy :  93%|█████████▎| 19067/20417 [00:04<00:00, 7719.44it/s]Parsing Hierarchy : 100%|██████████| 20417/20417 [00:04<00:00, 4640.64it/s]
+yt : [INFO     ] 2023-09-20 16:02:24,085 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 16:27:36,763 Parameters: current_time              = 19.911832051656
+yt : [INFO     ] 2023-09-20 16:27:36,764 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 16:27:36,764 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 16:27:36,764 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 16:27:36,765 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 16:27:36,765 Parameters: current_redshift          = 14.576808573723
+yt : [INFO     ] 2023-09-20 16:27:36,765 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 16:27:36,765 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 16:27:36,765 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 16:27:36,765 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.610955187301...
+Parsing Hierarchy :   0%|          | 0/20614 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1197/20614 [00:00<00:01, 11968.67it/s]Parsing Hierarchy :  14%|█▎        | 2808/20614 [00:00<00:01, 14401.25it/s]Parsing Hierarchy :  22%|██▏       | 4477/20614 [00:00<00:01, 15443.82it/s]Parsing Hierarchy :  30%|██▉       | 6166/20614 [00:00<00:00, 16014.62it/s]Parsing Hierarchy :  38%|███▊      | 7864/20614 [00:00<00:00, 16361.44it/s]Parsing Hierarchy :  46%|████▌     | 9501/20614 [00:03<00:07, 1404.49it/s] Parsing Hierarchy :  54%|█████▍    | 11100/20614 [00:03<00:04, 1988.12it/s]Parsing Hierarchy :  62%|██████▏   | 12701/20614 [00:03<00:02, 2746.27it/s]Parsing Hierarchy :  70%|██████▉   | 14344/20614 [00:04<00:01, 3727.43it/s]Parsing Hierarchy :  78%|███████▊  | 16015/20614 [00:04<00:00, 4933.55it/s]Parsing Hierarchy :  86%|████████▌ | 17669/20614 [00:04<00:00, 6293.58it/s]Parsing Hierarchy :  94%|█████████▎| 19278/20614 [00:04<00:00, 7698.16it/s]Parsing Hierarchy : 100%|██████████| 20614/20614 [00:04<00:00, 4669.38it/s]
+yt : [INFO     ] 2023-09-20 16:27:41,889 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 16:54:04,707 Parameters: current_time              = 19.97711507145
+yt : [INFO     ] 2023-09-20 16:54:04,731 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 16:54:04,732 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 16:54:04,732 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 16:54:04,732 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 16:54:04,732 Parameters: current_redshift          = 14.542848090055
+yt : [INFO     ] 2023-09-20 16:54:04,732 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 16:54:04,733 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 16:54:04,733 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 16:54:04,733 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.576808573723...
+Parsing Hierarchy :   0%|          | 0/20711 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 1084/20711 [00:00<00:01, 10839.91it/s]Parsing Hierarchy :  13%|█▎        | 2687/20711 [00:00<00:01, 13889.06it/s]Parsing Hierarchy :  21%|██        | 4335/20711 [00:00<00:01, 15071.08it/s]Parsing Hierarchy :  29%|██▉       | 5996/20711 [00:00<00:00, 15678.51it/s]Parsing Hierarchy :  37%|███▋      | 7661/20711 [00:00<00:00, 16027.53it/s]Parsing Hierarchy :  45%|████▌     | 9340/20711 [00:00<00:00, 16284.02it/s]Parsing Hierarchy :  53%|█████▎    | 10969/20711 [00:03<00:06, 1424.23it/s]Parsing Hierarchy :  61%|██████    | 12579/20711 [00:03<00:04, 1999.99it/s]Parsing Hierarchy :  68%|██████▊   | 14182/20711 [00:04<00:02, 2744.57it/s]Parsing Hierarchy :  76%|███████▋  | 15834/20711 [00:04<00:01, 3715.35it/s]Parsing Hierarchy :  84%|████████▍ | 17490/20711 [00:04<00:00, 4890.03it/s]Parsing Hierarchy :  92%|█████████▏| 19103/20711 [00:04<00:00, 6188.47it/s]Parsing Hierarchy : 100%|██████████| 20711/20711 [00:04<00:00, 4610.81it/s]
+yt : [INFO     ] 2023-09-20 16:54:09,930 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 17:23:43,846 Parameters: current_time              = 20.009756575643
+yt : [INFO     ] 2023-09-20 17:23:43,853 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 17:23:43,854 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 17:23:43,854 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 17:23:43,854 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 17:23:43,854 Parameters: current_redshift          = 14.525937130377
+yt : [INFO     ] 2023-09-20 17:23:43,855 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 17:23:43,855 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 17:23:43,855 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 17:23:43,855 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.542848090055...
+Parsing Hierarchy :   0%|          | 0/20860 [00:00<?, ?it/s]Parsing Hierarchy :   6%|▌         | 1151/20860 [00:00<00:01, 11507.24it/s]Parsing Hierarchy :  13%|█▎        | 2743/20860 [00:00<00:01, 14100.50it/s]Parsing Hierarchy :  21%|██        | 4395/20860 [00:00<00:01, 15202.71it/s]Parsing Hierarchy :  29%|██▉       | 6064/20860 [00:00<00:00, 15789.14it/s]Parsing Hierarchy :  37%|███▋      | 7735/20860 [00:00<00:00, 16117.88it/s]Parsing Hierarchy :  45%|████▌     | 9412/20860 [00:00<00:00, 16336.82it/s]Parsing Hierarchy :  53%|█████▎    | 11106/20860 [00:00<00:00, 16532.21it/s]Parsing Hierarchy :  61%|██████    | 12760/20860 [00:03<00:05, 1483.95it/s] Parsing Hierarchy :  69%|██████▊   | 14336/20860 [00:04<00:03, 2043.64it/s]Parsing Hierarchy :  76%|███████▋  | 15947/20860 [00:04<00:01, 2789.65it/s]Parsing Hierarchy :  84%|████████▍ | 17584/20860 [00:04<00:00, 3746.12it/s]Parsing Hierarchy :  91%|█████████▏| 19044/20860 [00:04<00:00, 4720.90it/s]Parsing Hierarchy :  99%|█████████▉| 20699/20860 [00:04<00:00, 6081.64it/s]Parsing Hierarchy : 100%|██████████| 20860/20860 [00:04<00:00, 4634.94it/s]
+yt : [INFO     ] 2023-09-20 17:23:49,069 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 17:50:58,283 Parameters: current_time              = 20.042398102609
+yt : [INFO     ] 2023-09-20 17:50:58,295 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 17:50:58,296 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 17:50:58,296 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 17:50:58,296 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 17:50:58,296 Parameters: current_redshift          = 14.509072077525
+yt : [INFO     ] 2023-09-20 17:50:58,296 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 17:50:58,296 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 17:50:58,296 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 17:50:58,296 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.525937130377...
+Parsing Hierarchy :   0%|          | 0/20854 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▍         | 1028/20854 [00:00<00:01, 10278.51it/s]Parsing Hierarchy :  13%|█▎        | 2655/20854 [00:00<00:01, 13799.74it/s]Parsing Hierarchy :  21%|██        | 4329/20854 [00:00<00:01, 15138.73it/s]Parsing Hierarchy :  29%|██▊       | 5994/20854 [00:00<00:00, 15734.82it/s]Parsing Hierarchy :  37%|███▋      | 7662/20854 [00:00<00:00, 16072.03it/s]Parsing Hierarchy :  45%|████▍     | 9322/20854 [00:00<00:00, 16249.76it/s]Parsing Hierarchy :  53%|█████▎    | 10993/20854 [00:00<00:00, 16399.95it/s]Parsing Hierarchy :  61%|██████    | 12697/20854 [00:00<00:00, 16601.78it/s]Parsing Hierarchy :  69%|██████▉   | 14426/20854 [00:00<00:00, 16814.97it/s]Parsing Hierarchy :  77%|███████▋  | 16108/20854 [00:04<00:03, 1534.98it/s] Parsing Hierarchy :  85%|████████▍ | 17717/20854 [00:04<00:01, 2098.11it/s]Parsing Hierarchy :  93%|█████████▎| 19369/20854 [00:04<00:00, 2853.41it/s]Parsing Hierarchy : 100%|██████████| 20854/20854 [00:04<00:00, 4619.53it/s]
+yt : [INFO     ] 2023-09-20 17:51:03,553 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-20 18:24:16,643 Parameters: current_time              = 20.075040143476
+yt : [INFO     ] 2023-09-20 18:24:16,659 Parameters: domain_dimensions         = [256 256 256]
+yt : [INFO     ] 2023-09-20 18:24:16,659 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-20 18:24:16,660 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-20 18:24:16,660 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-20 18:24:16,660 Parameters: current_redshift          = 14.492252479708
+yt : [INFO     ] 2023-09-20 18:24:16,660 Parameters: omega_lambda              = 0.6825
+yt : [INFO     ] 2023-09-20 18:24:16,660 Parameters: omega_matter              = 0.3175
+yt : [INFO     ] 2023-09-20 18:24:16,660 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-20 18:24:16,660 Parameters: hubble_constant           = 0.6711
+Finished snapshot 14.509072077525...
+Parsing Hierarchy :   0%|          | 0/20872 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▌         | 1120/20872 [00:00<00:01, 11195.55it/s]Parsing Hierarchy :  13%|█▎        | 2734/20872 [00:00<00:01, 14101.67it/s]Parsing Hierarchy :  21%|██        | 4435/20872 [00:00<00:01, 15427.65it/s]Parsing Hierarchy :  29%|██▉       | 6130/20872 [00:00<00:00, 16025.83it/s]Parsing Hierarchy :  37%|███▋      | 7792/20872 [00:00<00:00, 16239.59it/s]Parsing Hierarchy :  45%|████▌     | 9429/20872 [00:00<00:00, 16259.19it/s]Parsing Hierarchy :  53%|█████▎    | 11055/20872 [00:00<00:00, 16073.57it/s]Parsing Hierarchy :  61%|██████    | 12745/20872 [00:00<00:00, 16332.90it/s]Parsing Hierarchy :  69%|██████▉   | 14437/20872 [00:00<00:00, 16514.06it/s]Parsing Hierarchy :  77%|███████▋  | 16149/20872 [00:01<00:00, 16694.50it/s]Parsing Hierarchy :  85%|████████▌ | 17819/20872 [00:04<00:01, 1530.77it/s] Parsing Hierarchy :  93%|█████████▎| 19415/20872 [00:04<00:00, 2085.17it/s]Parsing Hierarchy : 100%|██████████| 20872/20872 [00:04<00:00, 4596.11it/s]
+yt : [INFO     ] 2023-09-20 18:24:21,916 Gathering a field list (this may take a moment.)

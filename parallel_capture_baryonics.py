@@ -54,7 +54,7 @@ print(f'yt parallelism with {cpus} cpus')
 # Run snapshot_baryonics in parallel
 parallelism_storage = {}
 
-for sto, snapshot in yt.parallel_objects(enzo_data, cpus, storage=parallelism_storage):
+for sto, snapshot in enzo_data.piter(parallelism_storage):
     # Get the outputs for this snapshot
     snapshot_baryonics(graphs, sto, snapshot)
 
