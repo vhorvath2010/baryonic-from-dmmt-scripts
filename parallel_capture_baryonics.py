@@ -16,7 +16,6 @@ def snapshot_baryonics(graphs, sto, snapshot):
     ys = [torch.ones(len(graph.x)) * -1 for graph in graphs]
 
     snapshot.add_particle_filter('p2')
-    snapshot.add_particle_filter('p3')
     
     for graph_idx, graph in enumerate(graphs):
         for halo_idx, halo_info in enumerate(graph.x):
@@ -54,9 +53,12 @@ print(f'yt parallelism with {cpus} cpus')
 # Run snapshot_baryonics in parallel
 parallelism_storage = {}
 
-for sto, snapshot in enzo_data.piter(parallelism_storage):
+# Currently running through first 400 snapshots because I know that can finish in 4 days. Just to have something...
+for sto, snapshot in enzo_data[:400].piter(parallelism_storage):
     # Get the outputs for this snapshot
-    snapshot_baryonics(graphs, sto, snapshot)
+    #    snapshot_baryonics(graphs, sto, snapshot)
+    # test just output snapshot
+    print(snapshot)
 
 # Compile finalized y's (take outputs for a graph where the value isnt -1
 combined_ys = [torch.ones(len(graph.x)) * -1 for graph in graphs]

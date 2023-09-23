@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -A hive-jw254
-#SBATCH -J run_python_script
+#SBATCH -J capture_baryonic_min_scope
 #SBATCH -n 4
 #SBATCH -t 4-00:00:00
 #SBATCH -o report-%j.out
@@ -12,4 +12,4 @@ cd /storage/hive/project/phy-wise/vhorvath3/baryonic-pred-from-dm/scripts
 
 source ~/.bashrc
 
-python parallel_capture_baryonics.py
+srun python parallel_capture_baryonics.py
