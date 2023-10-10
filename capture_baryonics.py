@@ -3,6 +3,7 @@ import torch_geometric
 import yt
 import collections
 import bisect
+import sys
 
 yt.enable_plugins()
 enzo_data = yt.load("~jw254/data/SG256-v3/DD????/output_????") # Set to proper enzo dataset
@@ -20,10 +21,13 @@ POS_UNITS = 'unitary'
 # The acceptance threshold (percentage) for a halo to query data from a snapshot
 REDSHIFT_THRESHOLD = .25
 
-# Load enzo snapshot (currently looking at 300-309)
-for snapshot in enzo_data:
+# Load job array index
+job_idx = int(sys.argv[1])
+
+# Load enzo snapshots based on job index 10*i to 10*(i+1)
+matches = 0
+for snapshot in enzo_data[job_idx * 10 : (job_idx + 1) * 10]:
     snapshot.add_particle_filter('p2')
-    snapshot.add_particle_filter('p3')
     for graph in graphs:
         for halo_idx, halo_info in enumerate(graph.x):
             # Ensure halo is within redshift threshold
@@ -40,15 +44,19 @@ for snapshot in enzo_data:
             # Acquire stellar mass in solar masses
             stellar_mass = stellar_mass.value.item() * 5.0000000025E-34
             graph.y[halo_idx] = stellar_mass
-    # Save output after every cycle
-    print(f"Saving graphs for snapshot {snapshot}...")
-    torch.save(graphs, 'SG256_Full_Graphs.pt') # Set output dir
+            matches += 1
 
-print(f"f{len(graphs)} Graphs saved with y values!")
+# Save job output
+print(f"Saving graphs for job {job_idx}...")
+print(f"Found matches for {matches} halos!")
+torch.save(graphs, f'array_outputs/SG256_Full_Graphs_Part_{job_idx}.pt') # Set output dir
+
+print(f"{len(graphs)} Graphs saved with y values!")
 print("Y is form: [stellar_mass (MSun)]")
 
+# COMMENTING OUT: Because we're not loading all snapshots at once. Check this at a later stage
 # Check to see if any halos didn't have a snapshot they matched to
-for graph in graphs:
-    if -1 in graph.y:
-        print("At least one halo was not able to find a suitable snapshot")
-        break
+# for graph in graphs:
+#    if -1 in graph.y:
+#        print("At least one halo was not able to find a suitable snapshot")
+#        break

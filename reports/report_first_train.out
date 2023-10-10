@@ -1,0 +1,155 @@
+---------------------------------------
+Begin Slurm Prolog: Oct-06-2023 01:10:33
+Job ID:    992984
+User ID:   vhorvath3
+Account:   hive-jw254
+Job name:  run_python_script
+Partition: hive
+---------------------------------------
+loaded 1058 graphs
+Graphs are valid?: True
+input shape for graph 0: torch.Size([20, 2]), output shape: torch.Size([20])
+Loss on epoch 5: 531502.4375
+Loss on epoch 10: 533395.4375
+Loss on epoch 15: 505267.0
+Loss on epoch 20: 505665.65625
+Loss on epoch 25: 506831.71875
+Loss on epoch 30: 500614.59375
+Loss on epoch 35: 503246.1875
+Loss on epoch 40: 500563.59375
+Loss on epoch 45: 501557.9375
+Loss on epoch 50: 500607.4375
+Loss on epoch 55: 500790.4375
+Loss on epoch 60: 500744.5
+Loss on epoch 65: 500561.0
+Loss on epoch 70: 500586.71875
+Loss on epoch 75: 500604.03125
+Loss on epoch 80: 500580.03125
+Loss on epoch 85: 500560.71875
+Loss on epoch 90: 500554.65625
+Loss on epoch 95: 500553.875
+Loss on epoch 100: 500553.9375
+Traceback (most recent call last):
+  File "/storage/hive/project/phy-wise/vhorvath3/baryonic-pred-from-dm/scripts/train_gnn.py", line 114, in <module>
+loaded 1058 graphs
+Graphs are valid?: True
+input shape for graph 0: torch.Size([20, 2]), output shape: torch.Size([20])
+Loss on epoch 5: 602293.25
+Loss on epoch 10: 500803.03125
+Loss on epoch 15: 527231.9375
+Loss on epoch 20: 525990.9375
+Loss on epoch 25: 510469.0625
+Loss on epoch 30: 501228.15625
+Loss on epoch 35: 501733.9375
+Loss on epoch 40: 503756.40625
+Loss on epoch 45: 501822.4375
+Loss on epoch 50: 500590.21875
+Loss on epoch 55: 501270.6875
+Loss on epoch 60: 500712.40625
+Loss on epoch 65: 500688.1875
+Loss on epoch 70: 500676.8125
+Loss on epoch 75: 500589.3125
+Loss on epoch 80: 500602.71875
+Loss on epoch 85: 500576.5
+Loss on epoch 90: 500567.5
+Loss on epoch 95: 500571.1875
+Loss on epoch 100: 500559.0
+Traceback (most recent call last):
+  File "/storage/hive/project/phy-wise/vhorvath3/baryonic-pred-from-dm/scripts/train_gnn.py", line 114, in <module>
+    torch.save(best_state, 'models/model_10_5_23.pt')
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 422, in save
+    torch.save(best_state, 'models/model_10_5_23.pt')
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 422, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 309, in _open_zipfile_writer
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 309, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 287, in __init__
+    return container(name_or_buffer)
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 287, in __init__
+    super(_open_zipfile_writer_file, self).__init__(torch._C.PyTorchFileWriter(str(name)))
+RuntimeError: Parent directory models does not exist.
+    super(_open_zipfile_writer_file, self).__init__(torch._C.PyTorchFileWriter(str(name)))
+RuntimeError: Parent directory models does not exist.
+srun: error: atl1-1-01-013-5-1: tasks 1-2: Exited with exit code 1
+loaded 1058 graphs
+Graphs are valid?: True
+input shape for graph 0: torch.Size([20, 2]), output shape: torch.Size([20])
+Loss on epoch 5: 639425.0
+Loss on epoch 10: 500734.40625
+Loss on epoch 15: 561245.625
+Loss on epoch 20: 529667.8125
+Loss on epoch 25: 500637.1875
+Loss on epoch 30: 510009.5625
+Loss on epoch 35: 507434.03125
+Loss on epoch 40: 500984.5
+Loss on epoch 45: 501166.75
+Loss on epoch 50: 501984.59375
+Loss on epoch 55: 501554.96875
+Loss on epoch 60: 501188.3125
+Loss on epoch 65: 500935.8125
+Loss on epoch 70: 500796.53125
+Loss on epoch 75: 500704.25
+Loss on epoch 80: 500636.125
+Loss on epoch 85: 500592.03125
+Loss on epoch 90: 500578.65625
+Loss on epoch 95: 500586.3125
+Loss on epoch 100: 500588.375
+Traceback (most recent call last):
+  File "/storage/hive/project/phy-wise/vhorvath3/baryonic-pred-from-dm/scripts/train_gnn.py", line 114, in <module>
+    torch.save(best_state, 'models/model_10_5_23.pt')
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 422, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 309, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 287, in __init__
+    super(_open_zipfile_writer_file, self).__init__(torch._C.PyTorchFileWriter(str(name)))
+RuntimeError: Parent directory models does not exist.
+srun: error: atl1-1-01-013-5-1: task 3: Exited with exit code 1
+loaded 1058 graphs
+Graphs are valid?: True
+input shape for graph 0: torch.Size([20, 2]), output shape: torch.Size([20])
+Loss on epoch 5: 605824.1875
+Loss on epoch 10: 617241.9375
+Loss on epoch 15: 623313.0625
+Loss on epoch 20: 626673.5
+Loss on epoch 25: 628643.375
+Loss on epoch 30: 629749.875
+Loss on epoch 35: 630276.75
+Loss on epoch 40: 630166.9375
+Loss on epoch 45: 629666.625
+Loss on epoch 50: 628801.625
+Loss on epoch 55: 627730.0625
+Loss on epoch 60: 626525.6875
+Loss on epoch 65: 625202.6875
+Loss on epoch 70: 623774.0625
+Loss on epoch 75: 622272.9375
+Loss on epoch 80: 620646.8125
+Loss on epoch 85: 618952.9375
+Loss on epoch 90: 617202.9375
+Loss on epoch 95: 615417.25
+Loss on epoch 100: 613654.1875
+Traceback (most recent call last):
+  File "/storage/hive/project/phy-wise/vhorvath3/baryonic-pred-from-dm/scripts/train_gnn.py", line 114, in <module>
+    torch.save(best_state, 'models/model_10_5_23.pt')
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 422, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 309, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/storage/hive/project/phy-wise/vhorvath3/.conda/envs/Vincent_WiseGroup/lib/python3.10/site-packages/torch/serialization.py", line 287, in __init__
+    super(_open_zipfile_writer_file, self).__init__(torch._C.PyTorchFileWriter(str(name)))
+RuntimeError: Parent directory models does not exist.
+srun: error: atl1-1-01-013-5-1: task 0: Exited with exit code 1
+---------------------------------------
+Begin Slurm Epilog: Oct-06-2023 01:41:30
+Job ID:        992984
+Array Job ID:  _4294967294
+User ID:       vhorvath3
+Account:       hive-jw254
+Job name:      run_python_script
+Resources:     cpu=4,mem=64G,node=1
+Rsrc Used:     cput=00:35:48,vmem=8076K,walltime=00:08:57,mem=5836K,energy_used=0
+Partition:     hive
+Nodes:         atl1-1-01-013-5-1
+---------------------------------------

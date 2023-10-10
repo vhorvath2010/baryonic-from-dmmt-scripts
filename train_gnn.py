@@ -1,6 +1,10 @@
 import torch
+from torch_geometric.data import Data
+from torch.utils.data import Dataset
 
-graphs = torch.load('graphs/SG64_Full_Graphs.pt') # In the future change this directory to training set
+graphs = torch.load('SG256_Full_Cleaned_Graphs_Train.pt') # In the future change this directory to training set
+# Special parsing because np test/train/split
+graphs = [Data(x=g[0][1], edge_index=g[1][1], y=g[2][1]) for g in graphs]
 print(f'loaded {len(graphs)} graphs')
 
 # Select specific features for each data (currently mass and redshift)
@@ -15,6 +19,11 @@ print(f'Graphs are valid?: {valid}')
 print(f'input shape for graph 0: {graphs[0].x.shape}, output shape: {graphs[0].y.shape}')
 if not valid:
     exit(1)
+
+# Create PyTorch dataset
+class GraphDataset(Dataset):
+    def __init__()
+
 
 # Model arch
 from torch_geometric.nn import GCNConv
@@ -108,6 +117,6 @@ for epoch in range(1, epochs + 1):
         print(f"Loss on epoch {epoch}: {loss}")
         
 # Save model
-torch.save(best_state, 'models/model_4_13_23.pt')
+torch.save(best_state, 'models/model_10_5_23.pt')
 print(f"Best model saved with loss {best_loss}")
 
