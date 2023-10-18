@@ -11,10 +11,11 @@ n_jobs = int(sys.argv[2])
 
 # Merge the y outputs from each partial graph
 ys = None
+print(f"Merging outputs {path_prefix}0.pt to {path_prefix}{n_jobs-1}.pt...")
 for i in range(n_jobs):
     graphs = torch.load(path_prefix + str(i) + ".pt")
     # Handle first case, if ys is none, just set it equal to this graphs ys
-    if xs = None:
+    if ys == None:
         ys = [graph.y for graph in graphs]
         continue
 
@@ -29,4 +30,5 @@ for i in range(n_jobs):
 graphs = torch.load(path_prefix + "0.pt")
 for i in range(len(graphs)):
     graphs[i].y = ys[i]
+print("Saving combined outputs to {path_prefix}Merged.pt")
 torch.save(graphs, path_prefix + "Merged.pt")
