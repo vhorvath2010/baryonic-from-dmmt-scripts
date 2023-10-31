@@ -1,10 +1,21 @@
 import torch
 from torch_geometric.data import Data
 from torch.utils.data import Dataset
+import sys
 
-graphs = torch.load('SG256_Full_Cleaned_Graphs_Train.pt') # In the future change this directory to training set
+# Get training data path as argument
+if len(sys.argv) != 2:
+    print("Invalid Arguments!\nUsage: python train_gnn.py %training_data_path%")
+    exit()
+
+train_data_loc = sys.argv[1]
+
+graphs = torch.load(train_data_loc)
+
 # Special parsing because np test/train/split
-graphs = [Data(x=g[0][1], edge_index=g[1][1], y=g[2][1]) for g in graphs]
+if not isinstance(graphs, Data):
+    graphs = [Data(x=g[0][1], edge_index=g[1][1], y=g[2][1]) for g in graphs]
+
 print(f'loaded {len(graphs)} graphs')
 
 # Select specific features for each data (currently mass and redshift)
@@ -19,11 +30,6 @@ print(f'Graphs are valid?: {valid}')
 print(f'input shape for graph 0: {graphs[0].x.shape}, output shape: {graphs[0].y.shape}')
 if not valid:
     exit(1)
-
-# Create PyTorch dataset
-class GraphDataset(Dataset):
-    def __init__()
-
 
 # Model arch
 from torch_geometric.nn import GCNConv

@@ -12,4 +12,4 @@ cd /storage/hive/project/phy-wise/vhorvath3/baryonic-pred-from-dm/scripts
 
 source ~/.bashrc
 
-srun python combine_job_array_outputs.py array_outputs/SG256_Full_Graphs_Part_ 104
+srun python clean_empty_halos.py

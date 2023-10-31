@@ -1,5 +1,6 @@
 import torch
 import sys
+import os
 
 # Get file location and number of jobs from cmdline input
 if len(sys.argv) != 3:
@@ -13,7 +14,13 @@ n_jobs = int(sys.argv[2])
 ys = None
 print(f"Merging outputs {path_prefix}0.pt to {path_prefix}{n_jobs-1}.pt...")
 for i in range(n_jobs):
-    graphs = torch.load(path_prefix + str(i) + ".pt")
+    # Ensure file exists 
+    curr_path = path_prefix + str(i) + ".pt"
+    if not os.path.isfile(curr_path):
+        print("File:", curr_path, "not found! Skipping outputs")
+        continue
+
+    graphs = torch.load(curr_path)
     # Handle first case, if ys is none, just set it equal to this graphs ys
     if ys == None:
         ys = [graph.y for graph in graphs]

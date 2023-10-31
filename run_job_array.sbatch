@@ -2,7 +2,7 @@
 #SBATCH -A hive-jw254
 #SBATCH -J array_baryonic
 #SBATCH -N 1
-#SBATCH -t 4-00:00:00
+#SBATCH -t 2-00:00:00
 #SBATCH -o reports/array_baryonic_%A_%a.out
 #SBATCH --mail-user=vhorvath3@gatech.edu
 #SBATCH --mail-type=BEGIN,END,FAIL
