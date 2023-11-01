@@ -1,6 +1,6 @@
 import torch
 from torch_geometric.data import Data
-from torch.utils.data import Dataset
+from torch_geometric.loader import DataLoader
 import sys
 
 # Get training data path as argument
@@ -29,6 +29,7 @@ for graph in graphs:
 print(f'Graphs are valid?: {valid}')
 print(f'input shape for graph 0: {graphs[0].x.shape}, output shape: {graphs[0].y.shape}')
 if not valid:
+    print("Invalid graphs found! Exiting...")
     exit(1)
 
 # Model arch
@@ -85,44 +86,57 @@ class CustomMSELoss(torch.nn.Module):
         loss = (non_zero_predictions - non_zero_targets) ** 2
         return torch.mean(loss)
 
+# Create DataLoader for batching
+loader = DataLoader(graphs, batch_size=64, shuffle=True)
+
 # Train model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print(f"Training on device {device}...")
 
 model = GCN().to(device)
 model.train()
 
-optimizer = torch.optim.Adam(model.parameters(), lr=1e-4, weight_decay=0.00025)
-loss_fn = torch.nn.MSELoss()
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
+loss_fn = torch.nn.MSELoss().to(device)
 
 best_state = None
 best_loss = float('inf')
 
-epochs = 100
+epochs = 500
+print("Starting training...")
+# Track average losses
+avg_losses = []
 for epoch in range(1, epochs + 1):
-    y_hat = torch.tensor([])
-    y = torch.tensor([])
+    total_loss = 0
+    print(f"Epoch {epoch}...")
+    for batch in loader:
+        y_hat = torch.tensor([]).to(device)
+        y = torch.tensor([]).to(device)
 
-    # Run predictions on all graphs before doing loss
-    for graph in graphs:
-        data = graph.to(device)
+        # Run predictions on all graphs in batch before doing loss
+        data = batch.to(device)
         out = model(data)
         y_hat = torch.cat((y_hat, out))
         y = torch.cat((y, data.y))
-    # Filter out zero-mass truths from loss gradient calculations
-    # non_zero_mask = y != 0
-    # non_zero_predictions = torch.squeeze(y_hat)[non_zero_mask]
-    # non_zero_truth = y[non_zero_mask]
-    loss = loss_fn(torch.squeeze(y_hat), y)
-    optimizer.zero_grad()
-    loss.backward()
-    optimizer.step()
-    if loss.item() < best_loss:
-        best_loss = loss.item()
+    
+        # Filter out zero-mass truths from loss gradient calculations
+        # non_zero_mask = y != 0
+        # non_zero_predictions = torch.squeeze(y_hat)[non_zero_mask]
+        # non_zero_truth = y[non_zero_mask]
+        loss = loss_fn(torch.squeeze(y_hat), y)
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        total_loss += loss.item()
+    avg_loss = total_loss / len(loader)
+    if avg_loss < best_loss:
+        best_loss = avg_loss
         best_state = model.state_dict()
-    if epoch % 5 == 0:
-        print(f"Loss on epoch {epoch}: {loss}")
+    if epoch == 1 or epoch % 5 == 0:
+        print(f"Loss on epoch {epoch}: {avg_loss}")
         
 # Save model
-torch.save(best_state, 'models/model_10_5_23.pt')
+model_name = 'model_11_1_23'
+torch.save(best_state, f'models/{model_name}.pt')
+torch.save(avg_losses, f'models/{model_name}_losses.pt')
 print(f"Best model saved with loss {best_loss}")
-
