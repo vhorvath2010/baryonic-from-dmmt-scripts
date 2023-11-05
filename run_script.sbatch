@@ -4,7 +4,7 @@
 #SBATCH -N1 --gres=gpu:1
 #SBATCH --gres-flags=enforce-binding
 #SBATCH -phive-gpu
-#SBATCH -t 1-00:00:00
+#SBATCH -t 0-12:00:00
 #SBATCH -o report-%j.out
 #SBATCH --mail-user=vhorvath3@gatech.edu
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -14,4 +14,4 @@ cd /storage/hive/project/phy-wise/vhorvath3/baryonic-pred-from-dm/scripts
 
 source ~/.bashrc
 
-srun python train_gnn.py SG256_Full_Merged_Cleaned_Graphs_Train.pt
+srun python train_gnn_rev1.py SG256_Full_Merged_Cleaned_Graphs_SM_ONLY_train.pt

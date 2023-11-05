@@ -129,6 +129,7 @@ for epoch in range(1, epochs + 1):
         optimizer.step()
         total_loss += loss.item()
     avg_loss = total_loss / len(loader)
+    avg_losses.append(avg_loss)
     if avg_loss < best_loss:
         best_loss = avg_loss
         best_state = model.state_dict()
