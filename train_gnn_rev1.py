@@ -98,7 +98,7 @@ print(f"Training on device {device}...")
 model = GCN().to(device)
 model.train()
 
-optimizer = torch.optim.Adam(model.parameters(), lr=1e-9)
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 loss_fn = torch.nn.MSELoss().to(device)
 
 best_state = None
@@ -130,7 +130,7 @@ for epoch in range(1, epochs + 1):
         loss.backward()
         optimizer.step()
         total_loss += loss.item()
-    avg_loss = total_loss / len(loader)
+    avg_loss = total_loss / len(graphs)
     if avg_loss < best_loss:
         best_loss = avg_loss
         best_state = model.state_dict()
