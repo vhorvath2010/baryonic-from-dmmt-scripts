@@ -42,7 +42,7 @@ for snapshot in enzo_data[job_idx * 10 : (job_idx + 1) * 10]:
             stellar_mass = sph.quantities.total_quantity(('p2','particle_mass')) 
         
             # Acquire stellar mass in solar masses
-            stellar_mass = stellar_mass.value.item() * 5.0000000025E-34
+            stellar_mass = stellar_mass.value.item() / (1.989E+33)
             graph.y[halo_idx] = stellar_mass
             matches += 1
 
