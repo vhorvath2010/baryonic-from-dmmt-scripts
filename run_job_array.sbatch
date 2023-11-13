@@ -7,7 +7,7 @@
 #SBATCH --mail-user=vhorvath3@gatech.edu
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --mem-per-cpu=64G
-#SBATCH --array=46,52,54,62,70
+#SBATCH --array=0-103
 
 cd /storage/hive/project/phy-wise/vhorvath3/baryonic-pred-from-dm/scripts
 

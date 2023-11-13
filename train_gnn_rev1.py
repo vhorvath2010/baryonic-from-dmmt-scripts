@@ -98,7 +98,7 @@ print(f"Training on device {device}...")
 model = GCN().to(device)
 model.train()
 
-optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-5)
 loss_fn = torch.nn.MSELoss().to(device)
 
 best_state = None
@@ -108,6 +108,7 @@ epochs = 500
 print("Starting training...")
 # Track average losses
 avg_losses = []
+n_halos = sum([len(graph) for graph in graphs])
 for epoch in range(1, epochs + 1):
     total_loss = 0
     print(f"Epoch {epoch}...")
@@ -130,7 +131,7 @@ for epoch in range(1, epochs + 1):
         loss.backward()
         optimizer.step()
         total_loss += loss.item()
-    avg_loss = total_loss / len(graphs)
+    avg_loss = total_loss / n_halos
     if avg_loss < best_loss:
         best_loss = avg_loss
         best_state = model.state_dict()

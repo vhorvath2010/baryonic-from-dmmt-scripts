@@ -4,7 +4,7 @@ import math
 
 # Load graphs
 print("Loading graphs...")
-graphs = torch.load("SG256_Full_Merged_Cleaned_Graphs.pt")
+graphs = torch.load("SG256_Full_ONLY_SM.pt")
 
 # Sample into train, test, val split
 graphs = np.array(graphs)
@@ -28,6 +28,6 @@ train = graphs[2*n_vt:]
 print(f"Picking {len(train)} graphs for training")
 
 print("Saving test, train, val graphs...")
-torch.save(val, "SG256_Full_Merged_Cleaned_Graphs_Val.pt")
-torch.save(test, "SG256_Full_Merged_Cleaned_Graphs_Test.pt")
-torch.save(train, "SG256_Full_Merged_Cleaned_Graphs_Train.pt")
+torch.save(val, "SG256_Full_ONLY_SM_val.pt")
+torch.save(test, "SG256_Full_ONLY_SM_test.pt")
+torch.save(train, "SG256_Full_ONLY_SM_train.pt")

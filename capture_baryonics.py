@@ -15,7 +15,7 @@ for graph in graphs:
 
 # Capture baryonics from Enzo snapshots
 # Adjust to whatever values are in prune_and_gen_graphs logs
-RVIR_UNITS = 'kpc'
+RVIR_UNITS = 'kpccm'
 POS_UNITS = 'unitary'
 
 # The acceptance threshold (percentage) for a halo to query data from a snapshot
@@ -49,7 +49,7 @@ for snapshot in enzo_data[job_idx * 10 : (job_idx + 1) * 10]:
 # Save job output
 print(f"Saving graphs for job {job_idx}...")
 print(f"Found matches for {matches} halos!")
-torch.save(graphs, f'array_outputs/SG256_Full_Graphs_Part_{job_idx}.pt') # Set output dir
+torch.save(graphs, f'array_outputs_fixed/SG256_Full_Graphs_Part_{job_idx}.pt') # Set output dir
 
 print(f"{len(graphs)} Graphs saved with y values!")
 print("Y is form: [stellar_mass (MSun)]")
