@@ -8,7 +8,7 @@ graphs = torch.load("SG256_Full_Graphs.pt")
 
 # Special parsing because np test/train/split
 if not isinstance(graphs, list) or not isinstance(graphs[0], Data):
-    graphs = [Data(x=g[0][1], edge_index=g[1][1], y=g[2][1]) for g in graphs]
+    graphs = [Data(x=g[0][1], edge_index=g[1][1], y=g[2][1]) for g in giraphs]
 
 # Remove halos with <= 0 stellar mass
 cleaned_graphs = []
@@ -20,18 +20,22 @@ subhalos = torch.load('SG256_subhalos.pt')
 # Store subhalo by redshift
 subhalo_map = {}
 for subhalo in subhalos:
-    rs = round(subhalo[1].item(), 4)
+    rs = round(subhalo[1], 4)
     subhalos_at_rs = subhalo_map.get(rs, [])
     subhalos_at_rs.append(subhalo)
     subhalo_map[rs] = subhalos_at_rs
 
 def is_subhalo(halo_x):
     rs = round(halo_x[1].item(), 4)
-    # if subhalo_map.get(rs) is None:
-        # print("RS found with no subhalos:", rs)
+    if subhalo_map.get(rs) is None:
+        print("invalid RS found", rs)
+        print(type(rs), type(subhalo_map.keys()[0]))
+        print(list(sorted(subhalo_map.keys())))
+        exit()
     for subhalo in subhalo_map.get(rs, []):
         subhalo_pos = subhalo[0]
         if subhalo_pos[0:3] == halo_x[2:5].tolist():
+            print("subhalo found!")
             return True
     return False
 
@@ -48,9 +52,8 @@ for graph in graphs:
     # print("Non subhalos:", non_subhalo_idxs) 
 
     # ensure valid indices have SM and are not subhalos
-    before_subhalo_prune = len(valid_halo_idxs)
-    valid_halo_idxs = torch.from_numpy(np.intersect1d(valid_halo_idxs, non_subhalo_idxs))
-    print('subhalo pruning removed', before_subhalo_prune - len(valid_halo_idxs), 'halos')
+    valid_halo_idxs = np.intersect1d(valid_halo_idxs, non_subhalo_idxs)
+    # print("Valid Halos:", valid_halo_idxs)
 
     # create subgraph with those halos
     cleaned_graph = graph.subgraph(valid_halo_idxs)
